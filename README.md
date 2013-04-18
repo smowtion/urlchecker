@@ -28,13 +28,13 @@ OUTPUT
 <current_api_version>0.1</current_api_version>
 </response>
 [/code]
+
 or
 
-
-
-
 Example:
+
 Request url
+
 http://urlchecker.net/api.php?response_format=json&link=http://www.mediafire.com/?wfghxg5x7d159x8
 OUTPUT
 ----------------------------------------------------------------------------------------
