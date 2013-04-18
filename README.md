@@ -16,13 +16,21 @@ response_format : 'xml' or 'json' (default 'xml')
 Example:
 Request url
 
-http://urlchecker.net/api.php?format=xml&link=http://www.mediafire.com/?wfghxg5x7d159x8
+http://urlchecker.net/api.php?response_format=json&link=http://www.mediafire.com/?wfghxg5x7d159x8
 
 And response
-
+[code]
 <response>
 <link>http://www.mediafire.com/?wfghxg5x7d159x8</link>
 <result>Success</result>
 <status>working</status>
 <current_api_version>0.1</current_api_version>
 </response>
+[/code]
+or
+Example:
+Request url
+http://urlchecker.net/api.php?response_format=json&link=http://www.mediafire.com/?wfghxg5x7d159x8
+
+
+{"link":"http:\/\/www.mediafire.com\/?wfghxg5x7d159x8","result":"Success","status":"working","current_api_version":"0.1"}
