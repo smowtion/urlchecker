@@ -32,6 +32,10 @@ OUTPUT
 </response>
 [/code]
 or
+
+
+
+
 Example:
 Request url
 http://urlchecker.net/api.php?response_format=json&link=http://www.mediafire.com/?wfghxg5x7d159x8
