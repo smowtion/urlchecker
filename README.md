@@ -15,8 +15,6 @@ Optional Parameters
 response_format : 'xml' or 'json' (default 'xml')
 ----------------------------------------------------------------------------------------
 
-
-
 Example:
 Request url
 
