@@ -1,6 +1,7 @@
 Urlchecker.net API
 ==========
-URL:http://urlchecker.net/api.php
+URL:http://urlchecker.net/api.txt
+
 Description : Urlchecker.net is a website tools to help you find out the link want to download still A Live or Dead
 ----------------------------------------------------------------------------------------
 
