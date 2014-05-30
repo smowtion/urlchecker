@@ -1,12 +1,12 @@
-Urlchecker.net API
+Url Checker API Documentation
 ==========
-URL:http://urlchecker.net/api.txt
-
-Description : Urlchecker.net is a website tools to help you find out the link want to download still A Live or Dead
+URL:http://urlchecker.org/#api
+==========
+Description : Urlchecker.org is a website tools to help you find out the link want to download still A Live or Dead
 ----------------------------------------------------------------------------------------
 
 Required parameters
-Link: Link need check ( see list host support from http://urlchecker.net/hosts.html)
+Link: Link need check ( see list host support from http://urlchecker.org/#hosts)
 
 Method : POST OR GET
 
