@@ -1,7 +1,8 @@
 Url Checker API Documentation
 ==========
+----------------------------------------------------------------------------------------
 URL:http://urlchecker.org/#api
-==========
+
 Description : Urlchecker.org is a website tools to help you find out the link want to download still A Live or Dead
 ----------------------------------------------------------------------------------------
 
