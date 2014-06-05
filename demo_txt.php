@@ -1,7 +1,7 @@
 <?php
 $response_format="txt";
 $link="http://www.mediafire.com/?wfghxg5x7d159x8";
-$url = 'http://api.urlchecker.org/';
+$url = 'http://api.urlchecker.net/';
 $ch = curl_init($url);
 
 curl_setopt($ch, CURLOPT_POST, true);
