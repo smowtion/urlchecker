@@ -1,13 +1,13 @@
 Url Checker API Documentation
 ==========
 ----------------------------------------------------------------------------------------
-URL:http://urlchecker.org/#api
+URL:http://urlchecker.net/#api
 
-Description : Urlchecker.org is a website tools to help you find out the link want to download still A Live or Dead
+Description : Urlchecker.net is a website tools to help you find out the link want to download still A Live or Dead
 ----------------------------------------------------------------------------------------
 
 Required parameters
-Link: Link need check ( see list host support from http://urlchecker.org/#hosts)
+Link: Link need check ( see list host support from http://urlchecker.net/#hosts)
 
 Method : POST OR GET
 
@@ -32,7 +32,7 @@ Out put xml
    <?php
     $response_format="xml";
     $link="http://www.mediafire.com/?wfghxg5x7d159x8";
-    $url = 'http://api.urlchecker.org/';
+    $url = 'http://api.urlchecker.net/';
     $ch = curl_init($url);
 
     curl_setopt($ch, CURLOPT_POST, true);
@@ -77,7 +77,7 @@ Request url
 <?php
 $response_format="json";
 $link="http://www.mediafire.com/?wfghxg5x7d159x8";
-$url = 'http://api.urlchecker.org/';
+$url = 'http://api.urlchecker.net/';
 $ch = curl_init($url);
 
 curl_setopt($ch, CURLOPT_POST, true);
@@ -116,7 +116,7 @@ Request url
 <?php
 $response_format="txt";
 $link="http://www.mediafire.com/?wfghxg5x7d159x8";
-$url = 'http://api.urlchecker.org/';
+$url = 'http://api.urlchecker.net/';
 $ch = curl_init($url);
 
 curl_setopt($ch, CURLOPT_POST, true);
