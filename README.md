@@ -4,6 +4,7 @@ Url Checker API Documentation
 URL:http://urlchecker.net/#api
 
 Description : Urlchecker.net is a website tools to help you find out the link want to download still A Live or Dead
+and get file name,file size 
 ----------------------------------------------------------------------------------------
 
 Required parameters
