@@ -2,9 +2,9 @@
 <html>
 
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Urlchecker : Urlchecker.net API Document " />
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Urlchecker : Urlchecker.net API Document ">
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
@@ -31,37 +31,127 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+        <h1>
+<a name="url-checker-api-documentation" class="anchor" href="#url-checker-api-documentation"><span class="octicon octicon-link"></span></a>Url Checker API Documentation</h1>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<hr><p>URL:<a href="http://urlchecker.net/#api">http://urlchecker.net/#api</a></p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+<p>Description : Urlchecker.net is a website tools to help you find out the link want to download still A Live or Dead</p>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+<h2>
+<a name="and-get-file-namefile-size-" class="anchor" href="#and-get-file-namefile-size-"><span class="octicon octicon-link"></span></a>and get file name,file size </h2>
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<p>Required parameters
+Link: Link need check ( see list host support from <a href="http://urlchecker.net/#hosts">http://urlchecker.net/#hosts</a>)</p>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+<p>Method : POST OR GET</p>
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+<p>Optional Parameters
+response_format : 'xml' ,'txt' or 'json' (default 'xml')</p>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+<p>And response
+Result of querry: "Success" OR "Error"
+Status of file : "working", "dead" or "unknown" 
+Size of file : "KB", "MB" "GB" or "TB" 
+current_api_version: API version</p>
 
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+<hr><p>Example: with php</p>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<h2>
+<a name="out-put-xml" class="anchor" href="#out-put-xml"><span class="octicon octicon-link"></span></a>Out put xml</h2>
 
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+<div class="highlight highlight-php"><pre>   <span class="o">&lt;?</span><span class="nx">php</span>
+    <span class="nv">$response_format</span><span class="o">=</span><span class="s2">"xml"</span><span class="p">;</span>
+    <span class="nv">$link</span><span class="o">=</span><span class="s2">"http://www.mediafire.com/?wfghxg5x7d159x8"</span><span class="p">;</span>
+    <span class="nv">$url</span> <span class="o">=</span> <span class="s1">'http://api.urlchecker.net/'</span><span class="p">;</span>
+    <span class="nv">$ch</span> <span class="o">=</span> <span class="nb">curl_init</span><span class="p">(</span><span class="nv">$url</span><span class="p">);</span>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+    <span class="nb">curl_setopt</span><span class="p">(</span><span class="nv">$ch</span><span class="p">,</span> <span class="nx">CURLOPT_POST</span><span class="p">,</span> <span class="k">true</span><span class="p">);</span>
+    <span class="nb">curl_setopt</span><span class="p">(</span><span class="nv">$ch</span><span class="p">,</span> <span class="nx">CURLOPT_POSTFIELDS</span><span class="p">,</span> <span class="s2">"response_format=</span><span class="si">$response_format</span><span class="s2">&amp;link=</span><span class="si">$link</span><span class="s2">"</span><span class="p">);</span>
+    <span class="nb">curl_setopt</span><span class="p">(</span><span class="nv">$ch</span><span class="p">,</span> <span class="nx">CURLOPT_RETURNTRANSFER</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+    <span class="nb">curl_setopt</span><span class="p">(</span><span class="nv">$ch</span><span class="p">,</span> <span class="nx">CURLOPT_VERBOSE</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+    <span class="nb">curl_setopt</span><span class="p">(</span><span class="nv">$ch</span><span class="p">,</span> <span class="nx">CURLOPT_NOBODY</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+
+    <span class="nv">$response</span> <span class="o">=</span> <span class="nb">curl_exec</span><span class="p">(</span><span class="nv">$ch</span><span class="p">);</span>
+    <span class="k">echo</span> <span class="nv">$response</span><span class="p">;</span>
+    <span class="cp">?&gt;</span><span class="x"></span>
+</pre></div>
+
+<p>And response
+OUTPUT</p>
+
+<hr><div class="highlight highlight-php"><pre>       <span class="o">&lt;</span><span class="nx">response</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="nb">link</span><span class="o">&gt;</span><span class="nx">http</span><span class="o">://</span><span class="nx">www</span><span class="o">.</span><span class="nx">mediafire</span><span class="o">.</span><span class="nx">com</span><span class="o">/?</span><span class="nx">wfghxg5x7d159x8</span><span class="o">&lt;/</span><span class="nb">link</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="nx">result</span><span class="o">&gt;</span><span class="nx">Success</span><span class="o">&lt;/</span><span class="nx">result</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="nx">status</span><span class="o">&gt;</span><span class="nx">working</span><span class="o">&lt;/</span><span class="nx">status</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="nb">filesize</span><span class="o">&gt;</span><span class="mf">167.53</span> <span class="nx">kB</span><span class="o">&lt;/</span><span class="nb">filesize</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="nx">filesize_mb</span><span class="o">&gt;</span><span class="mf">0.164</span><span class="o">&lt;/</span><span class="nx">filesize_mb</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="nx">api_query</span><span class="o">&gt;</span><span class="mi">5</span><span class="o">&lt;/</span><span class="nx">api_query</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="nx">daily_limited</span><span class="o">&gt;</span><span class="mi">10</span><span class="o">&lt;/</span><span class="nx">daily_limited</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="nx">api_member_pack</span><span class="o">&gt;</span><span class="nx">Free</span><span class="o">&lt;/</span><span class="nx">api_member_pack</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="nx">current_api_version</span><span class="o">&gt;</span><span class="mf">0.9</span><span class="o">&lt;/</span><span class="nx">current_api_version</span><span class="o">&gt;</span>
+        <span class="o">&lt;/</span><span class="nx">response</span><span class="o">&gt;</span>
+</pre></div>
+
+<h2>
+<a name="out-put-json" class="anchor" href="#out-put-json"><span class="octicon octicon-link"></span></a>Out put json</h2>
+
+<p>Example: php</p>
+
+<p>Request url</p>
+
+<div class="highlight highlight-php"><pre><span class="o">&lt;?</span><span class="nx">php</span>
+<span class="nv">$response_format</span><span class="o">=</span><span class="s2">"json"</span><span class="p">;</span>
+<span class="nv">$link</span><span class="o">=</span><span class="s2">"http://www.mediafire.com/?wfghxg5x7d159x8"</span><span class="p">;</span>
+<span class="nv">$url</span> <span class="o">=</span> <span class="s1">'http://api.urlchecker.net/'</span><span class="p">;</span>
+<span class="nv">$ch</span> <span class="o">=</span> <span class="nb">curl_init</span><span class="p">(</span><span class="nv">$url</span><span class="p">);</span>
+
+<span class="nb">curl_setopt</span><span class="p">(</span><span class="nv">$ch</span><span class="p">,</span> <span class="nx">CURLOPT_POST</span><span class="p">,</span> <span class="k">true</span><span class="p">);</span>
+<span class="nb">curl_setopt</span><span class="p">(</span><span class="nv">$ch</span><span class="p">,</span> <span class="nx">CURLOPT_POSTFIELDS</span><span class="p">,</span> <span class="s2">"response_format=</span><span class="si">$response_format</span><span class="s2">&amp;link=</span><span class="si">$link</span><span class="s2">"</span><span class="p">);</span>
+<span class="nb">curl_setopt</span><span class="p">(</span><span class="nv">$ch</span><span class="p">,</span> <span class="nx">CURLOPT_RETURNTRANSFER</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+<span class="nb">curl_setopt</span><span class="p">(</span><span class="nv">$ch</span><span class="p">,</span> <span class="nx">CURLOPT_VERBOSE</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+<span class="nb">curl_setopt</span><span class="p">(</span><span class="nv">$ch</span><span class="p">,</span> <span class="nx">CURLOPT_NOBODY</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+
+<span class="nv">$response</span>  <span class="o">=</span> <span class="nb">curl_exec</span><span class="p">(</span><span class="nv">$ch</span><span class="p">);</span>
+<span class="k">echo</span> <span class="nv">$response</span><span class="p">;</span>
+<span class="cp">?&gt;</span><span class="x"></span>
+</pre></div>
+
+<hr><p>OUTPUT</p>
+
+<hr><div class="highlight highlight-php"><pre>    <span class="p">{</span><span class="s2">"link"</span><span class="o">:</span><span class="s2">"http:\/\/www.mediafire.com\/?wfghxg5x7d159x8"</span><span class="p">,</span><span class="s2">"result"</span><span class="o">:</span><span class="s2">"Success"</span><span class="p">,</span><span class="s2">"status"</span><span class="o">:</span><span class="s2">"working"</span><span class="p">,</span><span class="s2">"current_api_version"</span><span class="o">:</span><span class="s2">"0.1"</span><span class="p">}</span>
+
+</pre></div>
+
+<h2>
+<a name="out-put-txt" class="anchor" href="#out-put-txt"><span class="octicon octicon-link"></span></a>Out put txt</h2>
+
+<p>Example: php</p>
+
+<p>Request url</p>
+
+<div class="highlight highlight-php"><pre><span class="o">&lt;?</span><span class="nx">php</span>
+<span class="nv">$response_format</span><span class="o">=</span><span class="s2">"txt"</span><span class="p">;</span>
+<span class="nv">$link</span><span class="o">=</span><span class="s2">"http://www.mediafire.com/?wfghxg5x7d159x8"</span><span class="p">;</span>
+<span class="nv">$url</span> <span class="o">=</span> <span class="s1">'http://api.urlchecker.net/'</span><span class="p">;</span>
+<span class="nv">$ch</span> <span class="o">=</span> <span class="nb">curl_init</span><span class="p">(</span><span class="nv">$url</span><span class="p">);</span>
+
+<span class="nb">curl_setopt</span><span class="p">(</span><span class="nv">$ch</span><span class="p">,</span> <span class="nx">CURLOPT_POST</span><span class="p">,</span> <span class="k">true</span><span class="p">);</span>
+<span class="nb">curl_setopt</span><span class="p">(</span><span class="nv">$ch</span><span class="p">,</span> <span class="nx">CURLOPT_POSTFIELDS</span><span class="p">,</span> <span class="s2">"response_format=</span><span class="si">$response_format</span><span class="s2">&amp;link=</span><span class="si">$link</span><span class="s2">"</span><span class="p">);</span>
+<span class="nb">curl_setopt</span><span class="p">(</span><span class="nv">$ch</span><span class="p">,</span> <span class="nx">CURLOPT_RETURNTRANSFER</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+<span class="nb">curl_setopt</span><span class="p">(</span><span class="nv">$ch</span><span class="p">,</span> <span class="nx">CURLOPT_VERBOSE</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+<span class="nb">curl_setopt</span><span class="p">(</span><span class="nv">$ch</span><span class="p">,</span> <span class="nx">CURLOPT_NOBODY</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+
+<span class="nv">$response</span>  <span class="o">=</span> <span class="nb">curl_exec</span><span class="p">(</span><span class="nv">$ch</span><span class="p">);</span>
+<span class="k">echo</span> <span class="nv">$response</span><span class="p">;</span>
+<span class="cp">?&gt;</span><span class="x"></span>
+</pre></div>
+
+<hr><p>OUTPUT</p>
+
+<hr><div class="highlight highlight-php"><pre><span class="nb">link</span><span class="o">:</span><span class="nx">http</span><span class="o">://</span><span class="nx">www</span><span class="o">.</span><span class="nx">mediafire</span><span class="o">.</span><span class="nx">com</span><span class="o">/?</span><span class="nx">wfghxg5x7d159x8</span><span class="o">|</span><span class="nx">result</span><span class="o">:</span><span class="nx">Success</span><span class="o">|</span><span class="nx">status</span><span class="o">:</span><span class="nx">working</span><span class="o">|</span><span class="nx">api_query</span><span class="o">:</span><span class="mi">1</span><span class="o">|</span><span class="nx">current_api_version</span><span class="o">:</span><span class="mf">0.2</span>
+
+</pre></div>
       </section>
     </div>
 
