@@ -111,7 +111,7 @@ Example: with php
 And response
 OUTPUT
 
-----------------------------------------------------------------------------------------
+
 ```php
        <response>
         <link>http://www.mediafire.com/?wfghxg5x7d159x8</link>
@@ -130,8 +130,8 @@ OUTPUT
 
 
 
-Out put json
-----------------------------------------------------------------------------------------
+ Out put json
+
 Example: php
 
 Request url
@@ -153,13 +153,13 @@ $response  = curl_exec($ch);
 echo $response;
 ?>
 ```
-----------------------------------------------------------------------------------------
+
 
 
 OUTPUT
 
 
-----------------------------------------------------------------------------------------
+
 ```php
     {"link":"http:\/\/www.mediafire.com\/?wfghxg5x7d159x8","result":"Success","status":"working","current_api_version":"0.1"}
 
@@ -168,7 +168,7 @@ OUTPUT
 
 
 Out put txt
-----------------------------------------------------------------------------------------
+
 Example: php
 
 Request url
@@ -192,12 +192,12 @@ $response  = curl_exec($ch);
 echo $response;
 ?>
 ```
-----------------------------------------------------------------------------------------
+
 
 OUTPUT
 
 
-----------------------------------------------------------------------------------------
+
 ```php
 link:http://www.mediafire.com/?wfghxg5x7d159x8|result:Success|status:working|api_query:1|current_api_version:0.2
 
