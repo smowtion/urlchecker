@@ -35,12 +35,12 @@ Example: with php
 ```php
    <?php
     $response_format="xml";
-    $link="http://pastebin.com/DUfzyeXn";
+    $link="http://pastebin.com/raw.php?i=DUfzyeXn";
     $url = 'http://api.urlchecker.net/';
     $ch = curl_init($url);
 
     curl_setopt($ch, CURLOPT_POST, true);
-    curl_setopt($ch, CURLOPT_POSTFIELDS, "response_format=$response_format&url=$url");
+    curl_setopt($ch, CURLOPT_POSTFIELDS, "response_format=$response_format&url=$link");
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
     curl_setopt($ch, CURLOPT_VERBOSE, 1);
     curl_setopt($ch, CURLOPT_NOBODY, 0);
@@ -49,8 +49,10 @@ Example: with php
     echo $response;
     ?>
 ```
-Out put xml
-----------------------------------------------------------------------------------------
+ Out put 'xml'
+ 
+ 
+
 ```xml
 
 
@@ -80,12 +82,15 @@ Out put xml
            </item>
         </response>
 ```
+###
 
 ### Check single link
 Example: with php
 
-Out put xml
-----------------------------------------------------------------------------------------
+  Out put xml
+  
+  
+
 ```php
    <?php
     $response_format="xml";
