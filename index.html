@@ -1,36 +1,33 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-
   <head>
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Urlchecker : Urlchecker.net API Document ">
+    <title>Urlchecker by Thomanphan</title>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Urlchecker</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
   </head>
-
   <body>
+    <div class="wrapper">
+      <header>
+        <h1>Urlchecker</h1>
+        <p>Urlchecker.net API Document </p>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/Thomanphan/urlchecker">View on GitHub</a>
+        <p class="view"><a href="https://github.com/Thomanphan/urlchecker">View the Project on GitHub <small>Thomanphan/urlchecker</small></a></p>
 
-          <h1 id="project_title">Urlchecker</h1>
-          <h2 id="project_tagline">Urlchecker.net API Document </h2>
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/Thomanphan/urlchecker/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/Thomanphan/urlchecker/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
+        <ul>
+          <li><a href="https://github.com/Thomanphan/urlchecker/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/Thomanphan/urlchecker/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/Thomanphan/urlchecker">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
         <h1>
 <a name="url-checker-api-documentation" class="anchor" href="#url-checker-api-documentation"><span class="octicon octicon-link"></span></a>Url Checker API Documentation</h1>
 
@@ -190,11 +187,11 @@ current_api_version: API version</p>
 
 <p>Example: with php
 <em>Demo worked with example link only</em>
-<em>Direct query <a href="http://api.urlchecker.net/?decodelink=https://adf.ly/j24Fg">http://api.urlchecker.net/?decodelink=https://adf.ly/j24Fg</a></em></p>
+<em>Direct query <a href="http://api.urlchecker.net/?decodelink=http://adf.ly/rz645">http://api.urlchecker.net/?decodelink=http://adf.ly/rz645</a></em></p>
 
 <div class="highlight highlight-php"><pre>   <span class="o">&lt;?</span><span class="nx">php</span>
     <span class="nv">$response_format</span><span class="o">=</span><span class="s2">"xml"</span><span class="p">;</span>
-    <span class="nv">$decodelink</span><span class="o">=</span><span class="s2">"https://adf.ly/j24Fg"</span><span class="p">;</span>
+    <span class="nv">$decodelink</span><span class="o">=</span><span class="s2">"http://adf.ly/rz645"</span><span class="p">;</span>
     <span class="nv">$api</span> <span class="o">=</span> <span class="s1">'http://api.urlchecker.net/'</span><span class="p">;</span>
     <span class="nv">$ch</span> <span class="o">=</span> <span class="nb">curl_init</span><span class="p">(</span><span class="nv">$api</span><span class="p">);</span>
 
@@ -221,10 +218,10 @@ current_api_version: API version</p>
                     <span class="nt">&lt;api_version&gt;</span>1.0<span class="nt">&lt;/api_version&gt;</span>
                     <span class="nt">&lt;webMaster&gt;</span>thomanphan@gmail.com<span class="nt">&lt;/webMaster&gt;</span>
                 <span class="nt">&lt;item&gt;</span>
-                     <span class="nt">&lt;link&gt;</span>http://billionuploads.com/fqc70c48t6b6<span class="nt">&lt;/link&gt;</span>
+                     <span class="nt">&lt;link&gt;</span>http://adf.ly/rz645<span class="nt">&lt;/link&gt;</span>
                      <span class="nt">&lt;result&gt;</span>Success<span class="nt">&lt;/result&gt;</span> 
                      <span class="nt">&lt;status&gt;</span>decoded<span class="nt">&lt;/status&gt;</span> 
-                     <span class="nt">&lt;decoded_link&gt;</span>http://billionuploads.com/fqc70c48t6b6<span class="nt">&lt;/decoded_link&gt;</span>
+                     <span class="nt">&lt;decoded_link&gt;</span>http://urlchecker.org/<span class="nt">&lt;/decoded_link&gt;</span>
                 <span class="nt">&lt;/item&gt;</span>
         <span class="nt">&lt;/response&gt;</span>
 </pre></div>
@@ -327,16 +324,12 @@ OUTPUT</p>
 
 </pre></div>
       </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Urlchecker maintained by <a href="https://github.com/Thomanphan">Thomanphan</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/Thomanphan">Thomanphan</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
-
+    <script src="javascripts/scale.fix.js"></script>
               <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
@@ -347,7 +340,6 @@ OUTPUT</p>
             pageTracker._trackPageview();
             } catch(err) {}
           </script>
-
 
   </body>
 </html>
