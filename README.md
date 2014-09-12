@@ -1,4 +1,5 @@
 #Url Checker API Documentation
+### Update Sep 12th, 2014
 
 ---------
 URL:http://urlchecker.net/#api
@@ -27,9 +28,62 @@ Size of file : "KB", "MB" "GB" or "TB"
 current_api_version: API version
 
 ----------------------------------------------------------------------------------------
+### Extract website or folder
+Example: with php
+*Demo worked with example link only*
+*Direct query http://api.urlchecker.net/?url=http://pastebin.com/raw.php?i=DUfzyeXn*
+```php
+   <?php
+    $response_format="xml";
+    $link="http://pastebin.com/DUfzyeXn";
+    $url = 'http://api.urlchecker.net/';
+    $ch = curl_init($url);
 
+    curl_setopt($ch, CURLOPT_POST, true);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, "response_format=$response_format&url=$url");
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($ch, CURLOPT_VERBOSE, 1);
+    curl_setopt($ch, CURLOPT_NOBODY, 0);
 
+    $response = curl_exec($ch);
+    echo $response;
+    ?>
+```
+Out put xml
+----------------------------------------------------------------------------------------
+```xml
+<response>
+<title>Checked by urlchecker version 1.0</title>
+<url/>
+<api_query>6</api_query>
+<daily_limited>250</daily_limited>
+<api_member_pack>Free</api_member_pack>
+<api_version>1.0</api_version>
+<webMaster>thomanphan@gmail.com</webMaster>
+<item>
+<link>
+http://letitbit.net/download/94986.9b8ca37e93a0f879e3a1c89ca909/Paname_FY.rar.html
+</link>
+<result>Success</result>
+<status>working</status>
+<filename>Paname_FY.rar</filename>
+<filesize>3.45</filesize>
+<filesize_mb>3.45</filesize_mb>
+</item>
+<item>
+<link>
+http://rapidgator.net/file/007a0d220430bde47d342dfb67b948b3/Paname_FY.rar.html
+</link>
+<result>Success</result>
+<status>working</status>
+<filename>Paname_FY.rar</filename>
+<filesize>3.29</filesize>
+<filesize_mb>3.29</filesize_mb>
+</item>
+</response>
+```
 
+### Check single link
 Example: with php
 
 Out put xml
