@@ -147,11 +147,11 @@ Example: with php
 ### Decode single link (adf.ly,safelinking.net,bit.ly ...)
 Example: with php
 *Demo worked with example link only*
-*Direct query http://api.urlchecker.net/?decodelink=https://adf.ly/j24Fg*
+*Direct query http://api.urlchecker.net/?decodelink=http://adf.ly/rz645*
 ```php
    <?php
     $response_format="xml";
-    $decodelink="https://adf.ly/j24Fg";
+    $decodelink="http://adf.ly/rz645";
     $api = 'http://api.urlchecker.net/';
     $ch = curl_init($api);
 
@@ -180,10 +180,10 @@ Example: with php
                     <api_version>1.0</api_version>
                     <webMaster>thomanphan@gmail.com</webMaster>
                 <item>
-                     <link>http://billionuploads.com/fqc70c48t6b6</link>
+                     <link>http://adf.ly/rz645</link>
                      <result>Success</result> 
                      <status>decoded</status> 
-                     <decoded_link>http://billionuploads.com/fqc70c48t6b6</decoded_link>
+                     <decoded_link>http://urlchecker.org/</decoded_link>
                 </item>
         </response>
 ```
