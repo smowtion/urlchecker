@@ -1,8 +1,8 @@
 <?php
 $response_format="txt";
 $link="http://www.mediafire.com/?wfghxg5x7d159x8";
-$url = 'http://api.urlchecker.net/';
-$ch = curl_init($url);
+$api = 'http://api.urlchecker.net/';
+$ch = curl_init($api);
 
 curl_setopt($ch, CURLOPT_POST, true);
 curl_setopt($ch, CURLOPT_POSTFIELDS, "response_format=$response_format&link=$link");
