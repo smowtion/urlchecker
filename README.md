@@ -1,16 +1,21 @@
-Url Checker API Documentation
-==========
-----------------------------------------------------------------------------------------
+#Url Checker API Documentation
+
+---------
 URL:http://urlchecker.net/#api
 
-Description : Urlchecker.net is a website tools to help you find out the link want to download still A Live or Dead
-and get file name,file size 
-----------------------------------------------------------------------------------------
+### Description :
+Urlchecker.net is a website tools to help you find out the link want to download still A Live or Dead
+and get file name,file size
 
-Required parameters
-Link: Link need check ( see list host support from http://urlchecker.net/#hosts)
+### Required parameters
+- link :Single Link need check ( see list host support from http://urlchecker.net/#hosts)
+- url : website or folder need extract
+- decodelink : Decode single link only ( adf.ly,bit.ly....)
+- decodelinks : Decode multi link or website 
+-
+*Chose one of parameter only*
 
-Method : POST OR GET
+### Method : POST OR GET
 
 Optional Parameters
 response_format : 'xml' ,'txt' or 'json' (default 'xml')
