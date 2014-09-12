@@ -34,17 +34,29 @@
         <h1>
 <a name="url-checker-api-documentation" class="anchor" href="#url-checker-api-documentation"><span class="octicon octicon-link"></span></a>Url Checker API Documentation</h1>
 
+<h3>
+<a name="update-sep-12th-2014" class="anchor" href="#update-sep-12th-2014"><span class="octicon octicon-link"></span></a>Update Sep 12th, 2014</h3>
+
 <hr><p>URL:<a href="http://urlchecker.net/#api">http://urlchecker.net/#api</a></p>
 
-<p>Description : Urlchecker.net is a website tools to help you find out the link want to download still A Live or Dead</p>
+<h3>
+<a name="description-" class="anchor" href="#description-"><span class="octicon octicon-link"></span></a>Description :</h3>
 
-<h2>
-<a name="and-get-file-namefile-size-" class="anchor" href="#and-get-file-namefile-size-"><span class="octicon octicon-link"></span></a>and get file name,file size </h2>
+<p>Urlchecker.net is a website tools to help you find out the link want to download still A Live or Dead
+and get file name,file size</p>
 
-<p>Required parameters
-Link: Link need check ( see list host support from <a href="http://urlchecker.net/#hosts">http://urlchecker.net/#hosts</a>)</p>
+<h3>
+<a name="required-parameters" class="anchor" href="#required-parameters"><span class="octicon octicon-link"></span></a>Required parameters</h3>
 
-<p>Method : POST OR GET</p>
+<ul>
+<li>link :Single Link need check ( see list host support from <a href="http://urlchecker.net/#hosts">http://urlchecker.net/#hosts</a>) (rapidgator.net,mediafire.com...)</li>
+<li>url : website or folder need extract</li>
+<li>decodelink : Decode single link only (adf.ly,safelinking.net,bit.ly ...)</li>
+<li>decodelinks : Decode multi link or website </li>
+</ul><p><em>Chose one of parameter only</em></p>
+
+<h3>
+<a name="method--post-or-get" class="anchor" href="#method--post-or-get"><span class="octicon octicon-link"></span></a>Method : POST OR GET</h3>
 
 <p>Optional Parameters
 response_format : 'xml' ,'txt' or 'json' (default 'xml')</p>
@@ -55,10 +67,174 @@ Status of file : "working", "dead" or "unknown"
 Size of file : "KB", "MB" "GB" or "TB" 
 current_api_version: API version</p>
 
-<hr><p>Example: with php</p>
+<hr><h3>
+<a name="extract-website-or-folder" class="anchor" href="#extract-website-or-folder"><span class="octicon octicon-link"></span></a>Extract website or folder</h3>
 
-<h2>
-<a name="out-put-xml" class="anchor" href="#out-put-xml"><span class="octicon octicon-link"></span></a>Out put xml</h2>
+<p>Example: with php
+<em>Demo worked with example link only</em>
+<em>Direct query <a href="http://api.urlchecker.net/?url=http://pastebin.com/raw.php?i=DUfzyeXn">http://api.urlchecker.net/?url=http://pastebin.com/raw.php?i=DUfzyeXn</a></em></p>
+
+<div class="highlight highlight-php"><pre>   <span class="o">&lt;?</span><span class="nx">php</span>
+    <span class="nv">$response_format</span><span class="o">=</span><span class="s2">"xml"</span><span class="p">;</span>
+    <span class="nv">$link</span><span class="o">=</span><span class="s2">"http://pastebin.com/raw.php?i=DUfzyeXn"</span><span class="p">;</span>
+    <span class="nv">$url</span> <span class="o">=</span> <span class="s1">'http://api.urlchecker.net/'</span><span class="p">;</span>
+    <span class="nv">$ch</span> <span class="o">=</span> <span class="nb">curl_init</span><span class="p">(</span><span class="nv">$url</span><span class="p">);</span>
+
+    <span class="nb">curl_setopt</span><span class="p">(</span><span class="nv">$ch</span><span class="p">,</span> <span class="nx">CURLOPT_POST</span><span class="p">,</span> <span class="k">true</span><span class="p">);</span>
+    <span class="nb">curl_setopt</span><span class="p">(</span><span class="nv">$ch</span><span class="p">,</span> <span class="nx">CURLOPT_POSTFIELDS</span><span class="p">,</span> <span class="s2">"response_format=</span><span class="si">$response_format</span><span class="s2">&amp;url=</span><span class="si">$link</span><span class="s2">"</span><span class="p">);</span>
+    <span class="nb">curl_setopt</span><span class="p">(</span><span class="nv">$ch</span><span class="p">,</span> <span class="nx">CURLOPT_RETURNTRANSFER</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+    <span class="nb">curl_setopt</span><span class="p">(</span><span class="nv">$ch</span><span class="p">,</span> <span class="nx">CURLOPT_VERBOSE</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+    <span class="nb">curl_setopt</span><span class="p">(</span><span class="nv">$ch</span><span class="p">,</span> <span class="nx">CURLOPT_NOBODY</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+
+    <span class="nv">$response</span> <span class="o">=</span> <span class="nb">curl_exec</span><span class="p">(</span><span class="nv">$ch</span><span class="p">);</span>
+    <span class="k">echo</span> <span class="nv">$response</span><span class="p">;</span>
+    <span class="cp">?&gt;</span><span class="x"></span>
+</pre></div>
+
+<p>Out put 'xml'</p>
+
+<div class="highlight highlight-xml"><pre>
+
+        <span class="nt">&lt;response&gt;</span>
+                    <span class="nt">&lt;title&gt;</span>Checked by urlchecker version 1.0<span class="nt">&lt;/title&gt;</span>
+                    <span class="nt">&lt;url&gt;&lt;/url&gt;</span>
+                    <span class="nt">&lt;api_query&gt;</span>8<span class="nt">&lt;/api_query&gt;</span>
+                    <span class="nt">&lt;daily_limited&gt;</span>250<span class="nt">&lt;/daily_limited&gt;</span>
+                    <span class="nt">&lt;api_member_pack&gt;</span>Free<span class="nt">&lt;/api_member_pack&gt;</span>
+                    <span class="nt">&lt;api_version&gt;</span>1.0<span class="nt">&lt;/api_version&gt;</span>
+                    <span class="nt">&lt;webMaster&gt;</span>thomanphan@gmail.com<span class="nt">&lt;/webMaster&gt;</span>
+           <span class="nt">&lt;item&gt;</span>
+                <span class="nt">&lt;link&gt;</span>http://letitbit.net/download/94986.9b8ca37e93a0f879e3a1c89ca909/Paname_FY.rar.html<span class="nt">&lt;/link&gt;</span>
+                <span class="nt">&lt;result&gt;</span>Success<span class="nt">&lt;/result&gt;</span> 
+                <span class="nt">&lt;status&gt;</span>working<span class="nt">&lt;/status&gt;</span> 
+                <span class="nt">&lt;filename&gt;</span>Paname_FY.rar<span class="nt">&lt;/filename&gt;</span>
+                <span class="nt">&lt;filesize&gt;</span>3.45<span class="nt">&lt;/filesize&gt;</span>
+                <span class="nt">&lt;filesize_mb&gt;</span>3.45<span class="nt">&lt;/filesize_mb&gt;</span>
+           <span class="nt">&lt;/item&gt;</span>
+           <span class="nt">&lt;item&gt;</span>
+                <span class="nt">&lt;link&gt;</span>http://rapidgator.net/file/007a0d220430bde47d342dfb67b948b3/Paname_FY.rar.html<span class="nt">&lt;/link&gt;</span>
+                <span class="nt">&lt;result&gt;</span>Success<span class="nt">&lt;/result&gt;</span> 
+                <span class="nt">&lt;status&gt;</span>working<span class="nt">&lt;/status&gt;</span> 
+                <span class="nt">&lt;filename&gt;</span>Paname_FY.rar<span class="nt">&lt;/filename&gt;</span>
+                <span class="nt">&lt;filesize&gt;</span>3.29<span class="nt">&lt;/filesize&gt;</span>
+                <span class="nt">&lt;filesize_mb&gt;</span>3.29<span class="nt">&lt;/filesize_mb&gt;</span>
+           <span class="nt">&lt;/item&gt;</span>
+        <span class="nt">&lt;/response&gt;</span>
+</pre></div>
+
+<h3>
+<a name="decode-multi-link-or-website-container-encode-links-adflysafelinkingnetbitly-" class="anchor" href="#decode-multi-link-or-website-container-encode-links-adflysafelinkingnetbitly-"><span class="octicon octicon-link"></span></a>Decode multi link or website container encode links (adf.ly,safelinking.net,bit.ly ...)</h3>
+
+<p>Example: with php
+<em>Demo worked with example link only</em>
+<em>Direct query <a href="http://api.urlchecker.net/?decodelinks=http://pastebin.com/raw.php?i=A1K3TxXE">http://api.urlchecker.net/?decodelinks=http://pastebin.com/raw.php?i=A1K3TxXE</a></em></p>
+
+<div class="highlight highlight-php"><pre>   <span class="o">&lt;?</span><span class="nx">php</span>
+    <span class="nv">$response_format</span><span class="o">=</span><span class="s2">"xml"</span><span class="p">;</span>
+    <span class="nv">$decodelinks</span><span class="o">=</span><span class="s2">"http://pastebin.com/raw.php?i=DUfzyeXn"</span><span class="p">;</span>
+    <span class="nv">$api</span> <span class="o">=</span> <span class="s1">'http://api.urlchecker.net/'</span><span class="p">;</span>
+    <span class="nv">$ch</span> <span class="o">=</span> <span class="nb">curl_init</span><span class="p">(</span><span class="nv">$api</span><span class="p">);</span>
+
+    <span class="nb">curl_setopt</span><span class="p">(</span><span class="nv">$ch</span><span class="p">,</span> <span class="nx">CURLOPT_POST</span><span class="p">,</span> <span class="k">true</span><span class="p">);</span>
+    <span class="nb">curl_setopt</span><span class="p">(</span><span class="nv">$ch</span><span class="p">,</span> <span class="nx">CURLOPT_POSTFIELDS</span><span class="p">,</span> <span class="s2">"response_format=</span><span class="si">$response_format</span><span class="s2">&amp;decodelinks=</span><span class="si">$decodelinks</span><span class="s2">"</span><span class="p">);</span>
+    <span class="nb">curl_setopt</span><span class="p">(</span><span class="nv">$ch</span><span class="p">,</span> <span class="nx">CURLOPT_RETURNTRANSFER</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+    <span class="nb">curl_setopt</span><span class="p">(</span><span class="nv">$ch</span><span class="p">,</span> <span class="nx">CURLOPT_VERBOSE</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+    <span class="nb">curl_setopt</span><span class="p">(</span><span class="nv">$ch</span><span class="p">,</span> <span class="nx">CURLOPT_NOBODY</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+
+    <span class="nv">$response</span> <span class="o">=</span> <span class="nb">curl_exec</span><span class="p">(</span><span class="nv">$ch</span><span class="p">);</span>
+    <span class="k">echo</span> <span class="nv">$response</span><span class="p">;</span>
+    <span class="cp">?&gt;</span><span class="x"></span>
+</pre></div>
+
+<p>Out put 'xml'</p>
+
+<div class="highlight highlight-xml"><pre>
+
+        <span class="nt">&lt;response&gt;</span>
+                    <span class="nt">&lt;title&gt;</span>Checked by urlchecker version 1.0<span class="nt">&lt;/title&gt;</span>
+                    <span class="nt">&lt;url&gt;</span>http://pastebin.com/raw.php?i=A1K3TxXE<span class="nt">&lt;/url&gt;</span>
+                    <span class="nt">&lt;api_query&gt;</span>59<span class="nt">&lt;/api_query&gt;</span>
+                    <span class="nt">&lt;daily_limited&gt;</span>250<span class="nt">&lt;/daily_limited&gt;</span>
+                    <span class="nt">&lt;api_member_pack&gt;</span>Free<span class="nt">&lt;/api_member_pack&gt;</span>
+                    <span class="nt">&lt;api_version&gt;</span>1.0<span class="nt">&lt;/api_version&gt;</span>
+                    <span class="nt">&lt;webMaster&gt;</span>thomanphan@gmail.com<span class="nt">&lt;/webMaster&gt;</span>
+                <span class="nt">&lt;item&gt;</span>
+                     <span class="nt">&lt;link&gt;</span>https://adf.ly/j24Fg<span class="nt">&lt;/link&gt;</span>
+                     <span class="nt">&lt;result&gt;</span>Success<span class="nt">&lt;/result&gt;</span> 
+                     <span class="nt">&lt;status&gt;</span>decoded<span class="nt">&lt;/status&gt;</span> 
+                     <span class="nt">&lt;decoded_link&gt;</span>http://billionuploads.com/fqc70c48t6b6<span class="nt">&lt;/decoded_link&gt;</span>
+                <span class="nt">&lt;/item&gt;</span>
+                <span class="nt">&lt;item&gt;</span>
+                     <span class="nt">&lt;link&gt;</span>http://adf.ly/rz625<span class="nt">&lt;/link&gt;</span>
+                     <span class="nt">&lt;result&gt;</span>Success<span class="nt">&lt;/result&gt;</span> 
+                     <span class="nt">&lt;status&gt;</span>decoded<span class="nt">&lt;/status&gt;</span> 
+                     <span class="nt">&lt;decoded_link&gt;</span>https://github.com/Thomanphan/urlchecker<span class="nt">&lt;/decoded_link&gt;</span>
+                <span class="nt">&lt;/item&gt;</span>
+                <span class="nt">&lt;item&gt;</span>
+                     <span class="nt">&lt;link&gt;</span>http://adf.ly/rz645<span class="nt">&lt;/link&gt;</span>
+                     <span class="nt">&lt;result&gt;</span>Success<span class="nt">&lt;/result&gt;</span> 
+                     <span class="nt">&lt;status&gt;</span>decoded<span class="nt">&lt;/status&gt;</span> 
+                     <span class="nt">&lt;decoded_link&gt;</span>http://urlchecker.org/<span class="nt">&lt;/decoded_link&gt;</span>
+                <span class="nt">&lt;/item&gt;</span>
+                <span class="nt">&lt;item&gt;</span>
+                     <span class="nt">&lt;link&gt;</span>http://adf.ly/rz654<span class="nt">&lt;/link&gt;</span>
+                     <span class="nt">&lt;result&gt;</span>Success<span class="nt">&lt;/result&gt;</span> 
+                     <span class="nt">&lt;status&gt;</span>decoded<span class="nt">&lt;/status&gt;</span> 
+                     <span class="nt">&lt;decoded_link&gt;</span>http://urlchecker.org/member/<span class="nt">&lt;/decoded_link&gt;</span>
+                <span class="nt">&lt;/item&gt;</span>
+        <span class="nt">&lt;/response&gt;</span>
+</pre></div>
+
+<h3>
+<a name="decode-single-link-adflysafelinkingnetbitly-" class="anchor" href="#decode-single-link-adflysafelinkingnetbitly-"><span class="octicon octicon-link"></span></a>Decode single link (adf.ly,safelinking.net,bit.ly ...)</h3>
+
+<p>Example: with php
+<em>Demo worked with example link only</em>
+<em>Direct query <a href="http://api.urlchecker.net/?decodelink=https://adf.ly/j24Fg">http://api.urlchecker.net/?decodelink=https://adf.ly/j24Fg</a></em></p>
+
+<div class="highlight highlight-php"><pre>   <span class="o">&lt;?</span><span class="nx">php</span>
+    <span class="nv">$response_format</span><span class="o">=</span><span class="s2">"xml"</span><span class="p">;</span>
+    <span class="nv">$decodelink</span><span class="o">=</span><span class="s2">"https://adf.ly/j24Fg"</span><span class="p">;</span>
+    <span class="nv">$api</span> <span class="o">=</span> <span class="s1">'http://api.urlchecker.net/'</span><span class="p">;</span>
+    <span class="nv">$ch</span> <span class="o">=</span> <span class="nb">curl_init</span><span class="p">(</span><span class="nv">$api</span><span class="p">);</span>
+
+    <span class="nb">curl_setopt</span><span class="p">(</span><span class="nv">$ch</span><span class="p">,</span> <span class="nx">CURLOPT_POST</span><span class="p">,</span> <span class="k">true</span><span class="p">);</span>
+    <span class="nb">curl_setopt</span><span class="p">(</span><span class="nv">$ch</span><span class="p">,</span> <span class="nx">CURLOPT_POSTFIELDS</span><span class="p">,</span> <span class="s2">"response_format=</span><span class="si">$response_format</span><span class="s2">&amp;decodelink=</span><span class="si">$decodelink</span><span class="s2">"</span><span class="p">);</span>
+    <span class="nb">curl_setopt</span><span class="p">(</span><span class="nv">$ch</span><span class="p">,</span> <span class="nx">CURLOPT_RETURNTRANSFER</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+    <span class="nb">curl_setopt</span><span class="p">(</span><span class="nv">$ch</span><span class="p">,</span> <span class="nx">CURLOPT_VERBOSE</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+    <span class="nb">curl_setopt</span><span class="p">(</span><span class="nv">$ch</span><span class="p">,</span> <span class="nx">CURLOPT_NOBODY</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+
+    <span class="nv">$response</span> <span class="o">=</span> <span class="nb">curl_exec</span><span class="p">(</span><span class="nv">$ch</span><span class="p">);</span>
+    <span class="k">echo</span> <span class="nv">$response</span><span class="p">;</span>
+    <span class="cp">?&gt;</span><span class="x"></span>
+</pre></div>
+
+<p>Out put 'xml'</p>
+
+<div class="highlight highlight-xml"><pre>
+
+        <span class="nt">&lt;response&gt;</span>
+                    <span class="nt">&lt;title&gt;</span>Checked by urlchecker version 1.0<span class="nt">&lt;/title&gt;</span>
+                    <span class="nt">&lt;api_query&gt;</span>59<span class="nt">&lt;/api_query&gt;</span>
+                    <span class="nt">&lt;daily_limited&gt;</span>250<span class="nt">&lt;/daily_limited&gt;</span>
+                    <span class="nt">&lt;api_member_pack&gt;</span>Free<span class="nt">&lt;/api_member_pack&gt;</span>
+                    <span class="nt">&lt;api_version&gt;</span>1.0<span class="nt">&lt;/api_version&gt;</span>
+                    <span class="nt">&lt;webMaster&gt;</span>thomanphan@gmail.com<span class="nt">&lt;/webMaster&gt;</span>
+                <span class="nt">&lt;item&gt;</span>
+                     <span class="nt">&lt;link&gt;</span>http://billionuploads.com/fqc70c48t6b6<span class="nt">&lt;/link&gt;</span>
+                     <span class="nt">&lt;result&gt;</span>Success<span class="nt">&lt;/result&gt;</span> 
+                     <span class="nt">&lt;status&gt;</span>decoded<span class="nt">&lt;/status&gt;</span> 
+                     <span class="nt">&lt;decoded_link&gt;</span>http://billionuploads.com/fqc70c48t6b6<span class="nt">&lt;/decoded_link&gt;</span>
+                <span class="nt">&lt;/item&gt;</span>
+        <span class="nt">&lt;/response&gt;</span>
+</pre></div>
+
+<h3>
+<a name="check-single-link-file-host" class="anchor" href="#check-single-link-file-host"><span class="octicon octicon-link"></span></a>Check single link (file host)</h3>
+
+<p>Example: with php</p>
+
+<p>Out put xml</p>
 
 <div class="highlight highlight-php"><pre>   <span class="o">&lt;?</span><span class="nx">php</span>
     <span class="nv">$response_format</span><span class="o">=</span><span class="s2">"xml"</span><span class="p">;</span>
@@ -80,7 +256,7 @@ current_api_version: API version</p>
 <p>And response
 OUTPUT</p>
 
-<hr><div class="highlight highlight-php"><pre>       <span class="o">&lt;</span><span class="nx">response</span><span class="o">&gt;</span>
+<div class="highlight highlight-php"><pre>       <span class="o">&lt;</span><span class="nx">response</span><span class="o">&gt;</span>
         <span class="o">&lt;</span><span class="nb">link</span><span class="o">&gt;</span><span class="nx">http</span><span class="o">://</span><span class="nx">www</span><span class="o">.</span><span class="nx">mediafire</span><span class="o">.</span><span class="nx">com</span><span class="o">/?</span><span class="nx">wfghxg5x7d159x8</span><span class="o">&lt;/</span><span class="nb">link</span><span class="o">&gt;</span>
         <span class="o">&lt;</span><span class="nx">result</span><span class="o">&gt;</span><span class="nx">Success</span><span class="o">&lt;/</span><span class="nx">result</span><span class="o">&gt;</span>
         <span class="o">&lt;</span><span class="nx">status</span><span class="o">&gt;</span><span class="nx">working</span><span class="o">&lt;/</span><span class="nx">status</span><span class="o">&gt;</span>
@@ -93,8 +269,7 @@ OUTPUT</p>
         <span class="o">&lt;/</span><span class="nx">response</span><span class="o">&gt;</span>
 </pre></div>
 
-<h2>
-<a name="out-put-json" class="anchor" href="#out-put-json"><span class="octicon octicon-link"></span></a>Out put json</h2>
+<p>Out put json</p>
 
 <p>Example: php</p>
 
@@ -117,14 +292,13 @@ OUTPUT</p>
 <span class="cp">?&gt;</span><span class="x"></span>
 </pre></div>
 
-<hr><p>OUTPUT</p>
+<p>OUTPUT</p>
 
-<hr><div class="highlight highlight-php"><pre>    <span class="p">{</span><span class="s2">"link"</span><span class="o">:</span><span class="s2">"http:\/\/www.mediafire.com\/?wfghxg5x7d159x8"</span><span class="p">,</span><span class="s2">"result"</span><span class="o">:</span><span class="s2">"Success"</span><span class="p">,</span><span class="s2">"status"</span><span class="o">:</span><span class="s2">"working"</span><span class="p">,</span><span class="s2">"current_api_version"</span><span class="o">:</span><span class="s2">"0.1"</span><span class="p">}</span>
+<div class="highlight highlight-php"><pre>    <span class="p">{</span><span class="s2">"link"</span><span class="o">:</span><span class="s2">"http:\/\/www.mediafire.com\/?wfghxg5x7d159x8"</span><span class="p">,</span><span class="s2">"result"</span><span class="o">:</span><span class="s2">"Success"</span><span class="p">,</span><span class="s2">"status"</span><span class="o">:</span><span class="s2">"working"</span><span class="p">,</span><span class="s2">"current_api_version"</span><span class="o">:</span><span class="s2">"0.1"</span><span class="p">}</span>
 
 </pre></div>
 
-<h2>
-<a name="out-put-txt" class="anchor" href="#out-put-txt"><span class="octicon octicon-link"></span></a>Out put txt</h2>
+<p>Out put txt</p>
 
 <p>Example: php</p>
 
@@ -147,9 +321,9 @@ OUTPUT</p>
 <span class="cp">?&gt;</span><span class="x"></span>
 </pre></div>
 
-<hr><p>OUTPUT</p>
+<p>OUTPUT</p>
 
-<hr><div class="highlight highlight-php"><pre><span class="nb">link</span><span class="o">:</span><span class="nx">http</span><span class="o">://</span><span class="nx">www</span><span class="o">.</span><span class="nx">mediafire</span><span class="o">.</span><span class="nx">com</span><span class="o">/?</span><span class="nx">wfghxg5x7d159x8</span><span class="o">|</span><span class="nx">result</span><span class="o">:</span><span class="nx">Success</span><span class="o">|</span><span class="nx">status</span><span class="o">:</span><span class="nx">working</span><span class="o">|</span><span class="nx">api_query</span><span class="o">:</span><span class="mi">1</span><span class="o">|</span><span class="nx">current_api_version</span><span class="o">:</span><span class="mf">0.2</span>
+<div class="highlight highlight-php"><pre><span class="nb">link</span><span class="o">:</span><span class="nx">http</span><span class="o">://</span><span class="nx">www</span><span class="o">.</span><span class="nx">mediafire</span><span class="o">.</span><span class="nx">com</span><span class="o">/?</span><span class="nx">wfghxg5x7d159x8</span><span class="o">|</span><span class="nx">result</span><span class="o">:</span><span class="nx">Success</span><span class="o">|</span><span class="nx">status</span><span class="o">:</span><span class="nx">working</span><span class="o">|</span><span class="nx">api_query</span><span class="o">:</span><span class="mi">1</span><span class="o">|</span><span class="nx">current_api_version</span><span class="o">:</span><span class="mf">0.2</span>
 
 </pre></div>
       </section>
@@ -163,7 +337,17 @@ OUTPUT</p>
       </footer>
     </div>
 
-    
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-54179122-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
 
   </body>
 </html>
