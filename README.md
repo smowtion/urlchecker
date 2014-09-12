@@ -9,7 +9,7 @@ Urlchecker.net is a website tools to help you find out the link want to download
 and get file name,file size
 
 ### Required parameters
-- link :Single Link need check ( see list host support from http://urlchecker.net/#hosts) (rapidgator.net,mediafire.com...)
+- link :single Links ( see list host support from http://urlchecker.net/#hosts) (rapidgator.net,mediafire.com...)
 - url : website or folder need extract
 - decodelink : Decode single link only (adf.ly,safelinking.net,bit.ly ...)
 - decodelinks : Decode multi link or website 
