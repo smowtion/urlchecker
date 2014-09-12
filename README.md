@@ -30,7 +30,9 @@ current_api_version: API version
 ----------------------------------------------------------------------------------------
 ### Extract website or folder
 Example: with php
+
 *Demo worked with example link only*
+
 *Direct query http://api.urlchecker.net/?url=http://pastebin.com/raw.php?i=DUfzyeXn*
 ```php
    <?php
@@ -84,8 +86,11 @@ Example: with php
 ```
 ### Decode multi link or website container encode links (adf.ly,safelinking.net,bit.ly ...)
 Example: with php
+
 *Demo worked with example link only*
+
 *Direct query http://api.urlchecker.net/?decodelinks=http://pastebin.com/raw.php?i=A1K3TxXE*
+
 ```php
    <?php
     $response_format="xml";
@@ -146,8 +151,11 @@ Example: with php
 ```
 ### Decode single link (adf.ly,safelinking.net,bit.ly ...)
 Example: with php
+
 *Demo worked with example link only*
+
 *Direct query http://api.urlchecker.net/?decodelink=http://adf.ly/rz645*
+
 ```php
    <?php
     $response_format="xml";
