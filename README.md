@@ -82,7 +82,68 @@ Example: with php
            </item>
         </response>
 ```
-###
+### Decode multi link or website container encode links
+Example: with php
+*Demo worked with example link only*
+*Direct query http://api.urlchecker.net/?decodelinks=http://pastebin.com/raw.php?i=A1K3TxXE*
+```php
+   <?php
+    $response_format="xml";
+    $decodelinks="http://pastebin.com/raw.php?i=DUfzyeXn";
+    $api = 'http://api.urlchecker.net/';
+    $ch = curl_init($api);
+
+    curl_setopt($ch, CURLOPT_POST, true);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, "response_format=$response_format&decodelinks=$decodelinks");
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($ch, CURLOPT_VERBOSE, 1);
+    curl_setopt($ch, CURLOPT_NOBODY, 0);
+
+    $response = curl_exec($ch);
+    echo $response;
+    ?>
+```
+ Out put 'xml'
+ 
+ 
+
+```xml
+
+
+        <response>
+                    <title>Checked by urlchecker version 1.0</title>
+                    <url>http://pastebin.com/raw.php?i=A1K3TxXE</url>
+                    <api_query>59</api_query>
+                    <daily_limited>250</daily_limited>
+                    <api_member_pack>Free</api_member_pack>
+                    <api_version>1.0</api_version>
+                    <webMaster>thomanphan@gmail.com</webMaster>
+                <item>
+                     <link>https://adf.ly/j24Fg</link>
+                     <result>Success</result> 
+                     <status>decoded</status> 
+                     <decoded_link>http://billionuploads.com/fqc70c48t6b6</decoded_link>
+                </item>
+                <item>
+                     <link>http://adf.ly/rz625</link>
+                     <result>Success</result> 
+                     <status>decoded</status> 
+                     <decoded_link>https://github.com/Thomanphan/urlchecker</decoded_link>
+                </item>
+                <item>
+                     <link>http://adf.ly/rz645</link>
+                     <result>Success</result> 
+                     <status>decoded</status> 
+                     <decoded_link>http://urlchecker.org/</decoded_link>
+                </item>
+                <item>
+                     <link>http://adf.ly/rz654</link>
+                     <result>Success</result> 
+                     <status>decoded</status> 
+                     <decoded_link>http://urlchecker.org/member/</decoded_link>
+                </item>
+        </response>
+```
 
 ### Check single link
 Example: with php
