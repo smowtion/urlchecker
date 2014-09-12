@@ -9,9 +9,9 @@ Urlchecker.net is a website tools to help you find out the link want to download
 and get file name,file size
 
 ### Required parameters
-- link :Single Link need check ( see list host support from http://urlchecker.net/#hosts)
+- link :Single Link need check ( see list host support from http://urlchecker.net/#hosts) (rapidgator.net,mediafire.com...)
 - url : website or folder need extract
-- decodelink : Decode single link only ( adf.ly,bit.ly....)
+- decodelink : Decode single link only (adf.ly,safelinking.net,bit.ly ...)
 - decodelinks : Decode multi link or website 
 
 *Chose one of parameter only*
@@ -82,7 +82,7 @@ Example: with php
            </item>
         </response>
 ```
-### Decode multi link or website container encode links
+### Decode multi link or website container encode links (adf.ly,safelinking.net,bit.ly ...)
 Example: with php
 *Demo worked with example link only*
 *Direct query http://api.urlchecker.net/?decodelinks=http://pastebin.com/raw.php?i=A1K3TxXE*
@@ -144,8 +144,51 @@ Example: with php
                 </item>
         </response>
 ```
+### Decode single link (adf.ly,safelinking.net,bit.ly ...)
+Example: with php
+*Demo worked with example link only*
+*Direct query http://api.urlchecker.net/?decodelink=https://adf.ly/j24Fg*
+```php
+   <?php
+    $response_format="xml";
+    $decodelink="https://adf.ly/j24Fg";
+    $api = 'http://api.urlchecker.net/';
+    $ch = curl_init($api);
 
-### Check single link
+    curl_setopt($ch, CURLOPT_POST, true);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, "response_format=$response_format&decodelink=$decodelink");
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($ch, CURLOPT_VERBOSE, 1);
+    curl_setopt($ch, CURLOPT_NOBODY, 0);
+
+    $response = curl_exec($ch);
+    echo $response;
+    ?>
+```
+ Out put 'xml'
+ 
+ 
+
+```xml
+
+
+        <response>
+                    <title>Checked by urlchecker version 1.0</title>
+                    <api_query>59</api_query>
+                    <daily_limited>250</daily_limited>
+                    <api_member_pack>Free</api_member_pack>
+                    <api_version>1.0</api_version>
+                    <webMaster>thomanphan@gmail.com</webMaster>
+                <item>
+                     <link>http://billionuploads.com/fqc70c48t6b6</link>
+                     <result>Success</result> 
+                     <status>decoded</status> 
+                     <decoded_link>http://billionuploads.com/fqc70c48t6b6</decoded_link>
+                </item>
+        </response>
+```
+
+### Check single link (file host)
 Example: with php
 
   Out put xml
