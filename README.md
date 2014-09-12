@@ -12,7 +12,7 @@ and get file name,file size
 - url : website or folder need extract
 - decodelink : Decode single link only ( adf.ly,bit.ly....)
 - decodelinks : Decode multi link or website 
--
+
 *Chose one of parameter only*
 
 ### Method : POST OR GET
