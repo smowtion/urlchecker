@@ -10,7 +10,7 @@ and get file name,file size
 
 ### Required parameters
 - link :single Links ( see list host support from http://urlchecker.net/#hosts) (rapidgator.net,mediafire.com...)
-- url : website or folder need extract
+- url : website or folder need extract ( extract and check )
 - decodelink : Decode single link only (adf.ly,safelinking.net,bit.ly ...)
 - decodelinks : Decode multi link or website 
 
