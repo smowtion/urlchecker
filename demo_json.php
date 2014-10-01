@@ -14,10 +14,10 @@ $response  = curl_exec($ch);
 echo $response;
 ## Display file status
 $result= json_decode($response);
-echo "Files status : ".$result->status;
-echo "Files name : ".$result->filename;
-echo "Files name : ".$result->filesize_mb." MB";
+echo "Files status : ".$result->status."<br/>";
+echo "Files name : ".$result->filename."<br/>";
+echo "Files name : ".$result->filesize_mb." MB"."<br/>";
 ## Check API used
-echo "API queried to day: ".$result->api_query ;
-echo "API limited :".$result->daily_limited;
+echo "API queried to day: ".$result->api_query."<br/>" ;
+echo "API limited :".$result->daily_limited."<br/>";
 ?>
