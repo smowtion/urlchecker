@@ -33,11 +33,11 @@ Example: with php
 
 *Demo worked with example link only*
 
-*Direct query http://api.urlchecker.net/?url=http://pastebin.com/raw.php?i=DUfzyeXn*
+*Direct query http://api.urlchecker.net/?url=http://pastebin.com/raw.php?i=d2XYaiYf*
 ```php
    <?php
     $response_format="xml";
-    $link="http://pastebin.com/raw.php?i=DUfzyeXn";
+    $link="http://pastebin.com/raw.php?i=d2XYaiYf";
     $url = 'http://api.urlchecker.net/';
     $ch = curl_init($url);
 
