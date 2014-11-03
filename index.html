@@ -33,7 +33,9 @@
 <h3>
 <a name="update-sep-12th-2014" class="anchor" href="#update-sep-12th-2014"><span class="octicon octicon-link"></span></a>Update Sep 12th, 2014</h3>
 
-<hr><p>URL:<a href="http://urlchecker.net/#api">http://urlchecker.net/#api</a></p>
+<hr>
+
+<p>URL:<a href="http://urlchecker.net/#api">http://urlchecker.net/#api</a></p>
 
 <h3>
 <a name="description-" class="anchor" href="#description-"><span class="octicon octicon-link"></span></a>Description :</h3>
@@ -49,7 +51,9 @@ and get file name,file size</p>
 <li>url : website or folder need extract ( extract and check )</li>
 <li>decodelink : Decode single link only (adf.ly,safelinking.net,bit.ly ...)</li>
 <li>decodelinks : Decode multi link or website </li>
-</ul><p><em>Chose one of parameter only</em></p>
+</ul>
+
+<p><em>Chose one of parameter only</em></p>
 
 <h3>
 <a name="method--post-or-get" class="anchor" href="#method--post-or-get"><span class="octicon octicon-link"></span></a>Method : POST OR GET</h3>
@@ -63,18 +67,20 @@ Status of file : "working", "dead" or "unknown"
 Size of file : "KB", "MB" "GB" or "TB" 
 current_api_version: API version</p>
 
-<hr><h3>
+<hr>
+
+<h3>
 <a name="extract-website-or-folder" class="anchor" href="#extract-website-or-folder"><span class="octicon octicon-link"></span></a>Extract website or folder</h3>
 
 <p>Example: with php</p>
 
 <p><em>Demo worked with example link only</em></p>
 
-<p><em>Direct query <a href="http://api.urlchecker.net/?url=http://pastebin.com/raw.php?i=DUfzyeXn">http://api.urlchecker.net/?url=http://pastebin.com/raw.php?i=DUfzyeXn</a></em></p>
+<p><em>Direct query <a href="http://api.urlchecker.net/?url=http://pastebin.com/raw.php?i=d2XYaiYf">http://api.urlchecker.net/?url=http://pastebin.com/raw.php?i=d2XYaiYf</a></em></p>
 
 <div class="highlight highlight-php"><pre>   <span class="o">&lt;?</span><span class="nx">php</span>
     <span class="nv">$response_format</span><span class="o">=</span><span class="s2">"xml"</span><span class="p">;</span>
-    <span class="nv">$link</span><span class="o">=</span><span class="s2">"http://pastebin.com/raw.php?i=DUfzyeXn"</span><span class="p">;</span>
+    <span class="nv">$link</span><span class="o">=</span><span class="s2">"http://pastebin.com/raw.php?i=d2XYaiYf"</span><span class="p">;</span>
     <span class="nv">$url</span> <span class="o">=</span> <span class="s1">'http://api.urlchecker.net/'</span><span class="p">;</span>
     <span class="nv">$ch</span> <span class="o">=</span> <span class="nb">curl_init</span><span class="p">(</span><span class="nv">$url</span><span class="p">);</span>
 
