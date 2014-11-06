@@ -1,5 +1,5 @@
 #Url Checker API Documentation
-### Update Sep 12th, 2014
+### Update Nov 6th, 2014
 
 ---------
 URL:http://urlchecker.net/#api
