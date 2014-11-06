@@ -9,6 +9,7 @@ Urlchecker.net is a website tools to help you find out the link want to download
 and get file name,file size
 
 ### Required parameters
+- key : API key( login http://urlchecker.net/member/ and get this key)
 - link :single Links ( see list host support from http://urlchecker.net/#hosts) (rapidgator.net,mediafire.com...)
 - url : website or folder need extract ( extract and check )
 - decodelink : Decode single link only (adf.ly,safelinking.net,bit.ly ...)
@@ -37,12 +38,13 @@ Example: with php
 ```php
    <?php
     $response_format="xml";
+    $key="demo";
     $link="http://pastebin.com/raw.php?i=d2XYaiYf";
     $url = 'http://api.urlchecker.net/';
     $ch = curl_init($url);
 
     curl_setopt($ch, CURLOPT_POST, true);
-    curl_setopt($ch, CURLOPT_POSTFIELDS, "response_format=$response_format&url=$link");
+    curl_setopt($ch, CURLOPT_POSTFIELDS, "response_format=$response_format&key=$key&url=$link");
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
     curl_setopt($ch, CURLOPT_VERBOSE, 1);
     curl_setopt($ch, CURLOPT_NOBODY, 0);
@@ -94,12 +96,13 @@ Example: with php
 ```php
    <?php
     $response_format="xml";
+    $key="demo";
     $decodelinks="http://pastebin.com/raw.php?i=DUfzyeXn";
     $api = 'http://api.urlchecker.net/';
     $ch = curl_init($api);
 
     curl_setopt($ch, CURLOPT_POST, true);
-    curl_setopt($ch, CURLOPT_POSTFIELDS, "response_format=$response_format&decodelinks=$decodelinks");
+    curl_setopt($ch, CURLOPT_POSTFIELDS, "response_format=$response_format&key=$key&decodelinks=$decodelinks");
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
     curl_setopt($ch, CURLOPT_VERBOSE, 1);
     curl_setopt($ch, CURLOPT_NOBODY, 0);
@@ -159,12 +162,13 @@ Example: with php
 ```php
    <?php
     $response_format="xml";
+    $key='demo';
     $decodelink="http://adf.ly/rz645";
     $api = 'http://api.urlchecker.net/';
     $ch = curl_init($api);
 
     curl_setopt($ch, CURLOPT_POST, true);
-    curl_setopt($ch, CURLOPT_POSTFIELDS, "response_format=$response_format&decodelink=$decodelink");
+    curl_setopt($ch, CURLOPT_POSTFIELDS, "response_format=$response_format&key=$key&decodelink=$decodelink");
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
     curl_setopt($ch, CURLOPT_VERBOSE, 1);
     curl_setopt($ch, CURLOPT_NOBODY, 0);
@@ -206,12 +210,13 @@ Example: with php
 ```php
    <?php
     $response_format="xml";
+    $key='demo';
     $link="http://www.mediafire.com/?wfghxg5x7d159x8";
     $url = 'http://api.urlchecker.net/';
     $ch = curl_init($url);
 
     curl_setopt($ch, CURLOPT_POST, true);
-    curl_setopt($ch, CURLOPT_POSTFIELDS, "response_format=$response_format&link=$link");
+    curl_setopt($ch, CURLOPT_POSTFIELDS, "response_format=$response_format&key=$key&link=$link");
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
     curl_setopt($ch, CURLOPT_VERBOSE, 1);
     curl_setopt($ch, CURLOPT_NOBODY, 0);
@@ -251,12 +256,13 @@ Request url
 ```php
 <?php
 $response_format="json";
+$key='demo';
 $link="http://www.mediafire.com/?wfghxg5x7d159x8";
 $url = 'http://api.urlchecker.net/';
 $ch = curl_init($url);
 
 curl_setopt($ch, CURLOPT_POST, true);
-curl_setopt($ch, CURLOPT_POSTFIELDS, "response_format=$response_format&link=$link");
+curl_setopt($ch, CURLOPT_POSTFIELDS, "response_format=$response_format&key=$key&link=$link");
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_VERBOSE, 1);
 curl_setopt($ch, CURLOPT_NOBODY, 0);
@@ -290,12 +296,13 @@ Request url
 ```php
 <?php
 $response_format="txt";
+$key="demo";
 $link="http://www.mediafire.com/?wfghxg5x7d159x8";
 $url = 'http://api.urlchecker.net/';
 $ch = curl_init($url);
 
 curl_setopt($ch, CURLOPT_POST, true);
-curl_setopt($ch, CURLOPT_POSTFIELDS, "response_format=$response_format&link=$link");
+curl_setopt($ch, CURLOPT_POSTFIELDS, "response_format=$response_format&key=$key&link=$link");
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_VERBOSE, 1);
 curl_setopt($ch, CURLOPT_NOBODY, 0);
