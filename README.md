@@ -38,7 +38,7 @@ Example: with php
 ```php
    <?php
     $response_format="xml";
-    $key="demo";
+    $key="demo"; // get from member area
     $link="http://pastebin.com/raw.php?i=d2XYaiYf";
     $url = 'http://api.urlchecker.net/';
     $ch = curl_init($url);
@@ -96,7 +96,7 @@ Example: with php
 ```php
    <?php
     $response_format="xml";
-    $key="demo";
+    $key="demo";// get from member area
     $decodelinks="http://pastebin.com/raw.php?i=DUfzyeXn";
     $api = 'http://api.urlchecker.net/';
     $ch = curl_init($api);
@@ -162,7 +162,7 @@ Example: with php
 ```php
    <?php
     $response_format="xml";
-    $key='demo';
+    $key='demo';// get from member area
     $decodelink="http://adf.ly/rz645";
     $api = 'http://api.urlchecker.net/';
     $ch = curl_init($api);
@@ -210,7 +210,7 @@ Example: with php
 ```php
    <?php
     $response_format="xml";
-    $key='demo';
+    $key='demo';// get from member area
     $link="http://www.mediafire.com/?wfghxg5x7d159x8";
     $url = 'http://api.urlchecker.net/';
     $ch = curl_init($url);
@@ -256,7 +256,7 @@ Request url
 ```php
 <?php
 $response_format="json";
-$key='demo';
+$key='demo';// get from member area
 $link="http://www.mediafire.com/?wfghxg5x7d159x8";
 $url = 'http://api.urlchecker.net/';
 $ch = curl_init($url);
@@ -296,7 +296,7 @@ Request url
 ```php
 <?php
 $response_format="txt";
-$key="demo";
+$key="demo";// get from member area
 $link="http://www.mediafire.com/?wfghxg5x7d159x8";
 $url = 'http://api.urlchecker.net/';
 $ch = curl_init($url);
