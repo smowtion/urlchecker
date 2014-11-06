@@ -1,33 +1,34 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Urlchecker by Thomanphan</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="javascripts/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
 
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+    <title>Urlchecker by Thomanphan</title>
   </head>
+
   <body>
-    <div class="wrapper">
-      <header>
+    <header>
+      <div class="inner">
         <h1>Urlchecker</h1>
-        <p>Urlchecker.net API Document </p>
-        <p class="view"><a href="https://github.com/Thomanphan/urlchecker">View the Project on GitHub <small>Thomanphan/urlchecker</small></a></p>
-        <ul>
-          <li><a href="https://github.com/Thomanphan/urlchecker/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/Thomanphan/urlchecker/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/Thomanphan/urlchecker">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h1>
+        <h2>Urlchecker.net API Document </h2>
+        <a href="https://github.com/Thomanphan/urlchecker" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
 <a id="url-checker-api-documentation" class="anchor" href="#url-checker-api-documentation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Url Checker API Documentation</h1>
 
 <h3>
@@ -81,7 +82,7 @@ current_api_version: API version</p>
 
 <div class="highlight highlight-php"><pre><span class="h">   <span class="o">&lt;</span>?<span class="no">php</span></span>
 <span class="h">    <span class="nv">$response_format</span><span class="o">=</span><span class="s2">"xml"</span>;</span>
-<span class="h">    <span class="nv">$key</span><span class="o">=</span><span class="s2">"demo"</span>;</span>
+<span class="h">    <span class="nv">$key</span><span class="o">=</span><span class="s2">"demo"</span>; <span class="c1">// get from member area</span></span>
 <span class="h">    <span class="nv">$link</span><span class="o">=</span><span class="s2">"http://pastebin.com/raw.php?i=d2XYaiYf"</span>;</span>
 <span class="h">    <span class="nv">$url</span> <span class="o">=</span> <span class="s1">'http://api.urlchecker.net/'</span>;</span>
 <span class="h">    <span class="nv">$ch</span> <span class="o">=</span> <span class="nf">curl_init</span>(<span class="nv">$url</span>);</span>
@@ -137,7 +138,7 @@ current_api_version: API version</p>
 
 <div class="highlight highlight-php"><pre><span class="h">   <span class="o">&lt;</span>?<span class="no">php</span></span>
 <span class="h">    <span class="nv">$response_format</span><span class="o">=</span><span class="s2">"xml"</span>;</span>
-<span class="h">    <span class="nv">$key</span><span class="o">=</span><span class="s2">"demo"</span>;</span>
+<span class="h">    <span class="nv">$key</span><span class="o">=</span><span class="s2">"demo"</span>;<span class="c1">// get from member area</span></span>
 <span class="h">    <span class="nv">$decodelinks</span><span class="o">=</span><span class="s2">"http://pastebin.com/raw.php?i=DUfzyeXn"</span>;</span>
 <span class="h">    <span class="nv">$api</span> <span class="o">=</span> <span class="s1">'http://api.urlchecker.net/'</span>;</span>
 <span class="h">    <span class="nv">$ch</span> <span class="o">=</span> <span class="nf">curl_init</span>(<span class="nv">$api</span>);</span>
@@ -201,7 +202,7 @@ current_api_version: API version</p>
 
 <div class="highlight highlight-php"><pre><span class="h">   <span class="o">&lt;</span>?<span class="no">php</span></span>
 <span class="h">    <span class="nv">$response_format</span><span class="o">=</span><span class="s2">"xml"</span>;</span>
-<span class="h">    <span class="nv">$key</span><span class="o">=</span><span class="s1">'demo'</span>;</span>
+<span class="h">    <span class="nv">$key</span><span class="o">=</span><span class="s1">'demo'</span>;<span class="c1">// get from member area</span></span>
 <span class="h">    <span class="nv">$decodelink</span><span class="o">=</span><span class="s2">"http://adf.ly/rz645"</span>;</span>
 <span class="h">    <span class="nv">$api</span> <span class="o">=</span> <span class="s1">'http://api.urlchecker.net/'</span>;</span>
 <span class="h">    <span class="nv">$ch</span> <span class="o">=</span> <span class="nf">curl_init</span>(<span class="nv">$api</span>);</span>
@@ -244,7 +245,7 @@ current_api_version: API version</p>
 
 <div class="highlight highlight-php"><pre><span class="h">   <span class="o">&lt;</span>?<span class="no">php</span></span>
 <span class="h">    <span class="nv">$response_format</span><span class="o">=</span><span class="s2">"xml"</span>;</span>
-<span class="h">    <span class="nv">$key</span><span class="o">=</span><span class="s1">'demo'</span>;</span>
+<span class="h">    <span class="nv">$key</span><span class="o">=</span><span class="s1">'demo'</span>;<span class="c1">// get from member area</span></span>
 <span class="h">    <span class="nv">$link</span><span class="o">=</span><span class="s2">"http://www.mediafire.com/?wfghxg5x7d159x8"</span>;</span>
 <span class="h">    <span class="nv">$url</span> <span class="o">=</span> <span class="s1">'http://api.urlchecker.net/'</span>;</span>
 <span class="h">    <span class="nv">$ch</span> <span class="o">=</span> <span class="nf">curl_init</span>(<span class="nv">$url</span>);</span>
@@ -282,7 +283,7 @@ OUTPUT</p>
 
 <div class="highlight highlight-php"><pre><span class="cp">&lt;?php</span><span class="h"></span>
 <span class="h"><span class="nv">$response_format</span><span class="o">=</span><span class="s2">"json"</span>;</span>
-<span class="h"><span class="nv">$key</span><span class="o">=</span><span class="s1">'demo'</span>;</span>
+<span class="h"><span class="nv">$key</span><span class="o">=</span><span class="s1">'demo'</span>;<span class="c1">// get from member area</span></span>
 <span class="h"><span class="nv">$link</span><span class="o">=</span><span class="s2">"http://www.mediafire.com/?wfghxg5x7d159x8"</span>;</span>
 <span class="h"><span class="nv">$url</span> <span class="o">=</span> <span class="s1">'http://api.urlchecker.net/'</span>;</span>
 <span class="h"><span class="nv">$ch</span> <span class="o">=</span> <span class="nf">curl_init</span>(<span class="nv">$url</span>);</span>
@@ -310,7 +311,7 @@ OUTPUT</p>
 
 <div class="highlight highlight-php"><pre><span class="cp">&lt;?php</span><span class="h"></span>
 <span class="h"><span class="nv">$response_format</span><span class="o">=</span><span class="s2">"txt"</span>;</span>
-<span class="h"><span class="nv">$key</span><span class="o">=</span><span class="s2">"demo"</span>;</span>
+<span class="h"><span class="nv">$key</span><span class="o">=</span><span class="s2">"demo"</span>;<span class="c1">// get from member area</span></span>
 <span class="h"><span class="nv">$link</span><span class="o">=</span><span class="s2">"http://www.mediafire.com/?wfghxg5x7d159x8"</span>;</span>
 <span class="h"><span class="nv">$url</span> <span class="o">=</span> <span class="s1">'http://api.urlchecker.net/'</span>;</span>
 <span class="h"><span class="nv">$ch</span> <span class="o">=</span> <span class="nf">curl_init</span>(<span class="nv">$url</span>);</span>
@@ -329,14 +330,26 @@ OUTPUT</p>
 
 <div class="highlight highlight-php"><pre><span class="h"><span class="n">link</span>:<span class="no">http</span>:<span class="c1">//www.mediafire.com/?wfghxg5x7d159x8|result:Success|status:working|api_query:1|current_api_version:0.2</span></span>
 <span class="h"></span></pre></div>
-      </section>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/Thomanphan/urlchecker/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/Thomanphan/urlchecker/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/Thomanphan/urlchecker"></a> is maintained by <a href="https://github.com/Thomanphan">Thomanphan</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
     </div>
-    <footer>
-      <p>Project maintained by <a href="https://github.com/Thomanphan">Thomanphan</a></p>
-      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
-    </footer>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-              <script type="text/javascript">
+
+            <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
           </script>
