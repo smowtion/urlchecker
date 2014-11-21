@@ -7,6 +7,8 @@ URL:http://urlchecker.net/#api
 ### Description :
 Urlchecker.net is a website tools to help you find out the link want to download still A Live or Dead
 and get file name,file size
+### video demo
+URL:https://www.youtube.com/watch?v=oEOruOtLSWo
 
 ### Required parameters
 - key : API key( login http://urlchecker.net/member/ and get this key)
