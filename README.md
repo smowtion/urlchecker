@@ -2,17 +2,17 @@
 ### Update Nov 6th, 2014
 
 ---------
-URL:http://urlchecker.net/#api
+URL:http://urlchecker.org/#api
 
 ### Description :
-Urlchecker.net is a website tools to help you find out the link want to download still A Live or Dead
+urlchecker.org is a website tools to help you find out the link want to download still A Live or Dead
 and get file name,file size
 ### video demo
 URL:https://www.youtube.com/watch?v=oEOruOtLSWo
 
 ### Required parameters
-- key : API key( login http://urlchecker.net/member/ and get this key)
-- link :single Links ( see list host support from http://urlchecker.net/#hosts) (rapidgator.net,mediafire.com...)
+- key : API key( login http://urlchecker.org/member/ and get this key)
+- link :single Links ( see list host support from http://urlchecker.org/#hosts) (rapidgator.net,mediafire.com...)
 - url : website or folder need extract ( extract and check )
 - decodelink : Decode single link only (adf.ly,safelinking.net,bit.ly ...)
 - decodelinks : Decode multi link or website 
@@ -36,13 +36,13 @@ Example: with php
 
 *Demo worked with example link only*
 
-*Direct query http://api.urlchecker.net/?url=http://pastebin.com/raw.php?i=d2XYaiYf*
+*Direct query http://api.urlchecker.org/?url=http://pastebin.com/raw.php?i=d2XYaiYf*
 ```php
    <?php
     $response_format="xml";
     $key="demo"; // get from member area
     $link="http://pastebin.com/raw.php?i=d2XYaiYf";
-    $url = 'http://api.urlchecker.net/';
+    $url = 'http://api.urlchecker.org/';
     $ch = curl_init($url);
 
     curl_setopt($ch, CURLOPT_POST, true);
@@ -93,14 +93,14 @@ Example: with php
 
 *Demo worked with example link only*
 
-*Direct query http://api.urlchecker.net/?decodelinks=http://pastebin.com/raw.php?i=A1K3TxXE*
+*Direct query http://api.urlchecker.org/?decodelinks=http://pastebin.com/raw.php?i=A1K3TxXE*
 
 ```php
    <?php
     $response_format="xml";
     $key="demo";// get from member area
     $decodelinks="http://pastebin.com/raw.php?i=DUfzyeXn";
-    $api = 'http://api.urlchecker.net/';
+    $api = 'http://api.urlchecker.org/';
     $ch = curl_init($api);
 
     curl_setopt($ch, CURLOPT_POST, true);
@@ -159,14 +159,14 @@ Example: with php
 
 *Demo worked with example link only*
 
-*Direct query http://api.urlchecker.net/?decodelink=http://adf.ly/rz645*
+*Direct query http://api.urlchecker.org/?decodelink=http://adf.ly/rz645*
 
 ```php
    <?php
     $response_format="xml";
     $key='demo';// get from member area
     $decodelink="http://adf.ly/rz645";
-    $api = 'http://api.urlchecker.net/';
+    $api = 'http://api.urlchecker.org/';
     $ch = curl_init($api);
 
     curl_setopt($ch, CURLOPT_POST, true);
@@ -214,7 +214,7 @@ Example: with php
     $response_format="xml";
     $key='demo';// get from member area
     $link="http://www.mediafire.com/?wfghxg5x7d159x8";
-    $url = 'http://api.urlchecker.net/';
+    $url = 'http://api.urlchecker.org/';
     $ch = curl_init($url);
 
     curl_setopt($ch, CURLOPT_POST, true);
@@ -260,7 +260,7 @@ Request url
 $response_format="json";
 $key='demo';// get from member area
 $link="http://www.mediafire.com/?wfghxg5x7d159x8";
-$url = 'http://api.urlchecker.net/';
+$url = 'http://api.urlchecker.org/';
 $ch = curl_init($url);
 
 curl_setopt($ch, CURLOPT_POST, true);
@@ -300,7 +300,7 @@ Request url
 $response_format="txt";
 $key="demo";// get from member area
 $link="http://www.mediafire.com/?wfghxg5x7d159x8";
-$url = 'http://api.urlchecker.net/';
+$url = 'http://api.urlchecker.org/';
 $ch = curl_init($url);
 
 curl_setopt($ch, CURLOPT_POST, true);
