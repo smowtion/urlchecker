@@ -6,7 +6,7 @@ URL:http://urlchecker.org/#api
 
 ## Description :
 urlchecker.org is a website tools to help you find out the link want to download still A Live or Dead
-and get file name,file size
+and get file name,file size ( Check 1000 files hosts,ziplink,encoded links and ads link. example: rapidgator,mefiafire,mega.nz,adf.ly and extract files hosting from website....) 
 ## Features
 * We support unlimited 1000 files hosts,ziplink,encoded links and ads link.
 * Everything is built API first with a focus on simplicity and compliance to standards.
