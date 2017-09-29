@@ -1,13 +1,22 @@
 ## Url Checker API Documentation
-## Update Apr 10, 2017
+## Update Sep 29, 2017
 
 ---------
 URL:http://urlchecker.org/#api
 
-### Description :
+## Description :
 urlchecker.org is a website tools to help you find out the link want to download still A Live or Dead
 and get file name,file size
-### video demo
+## Features
+* We support unlimited 1000 files hosts,ziplink,encoded links and ads link.
+* Everything is built API first with a focus on simplicity and compliance to standards.
+* We're serious about 99.9% uptime SLA and we have the track record to prove it.
+* More than just email support. Live support people standing by to get you started.
+* Your first 3000 API Access are free every month.
+
+
+
+## Video demo
 URL:https://www.youtube.com/watch?v=oEOruOtLSWo
 
 ### Required parameters
@@ -33,8 +42,42 @@ Size of file : "KB", "MB" "GB" or "TB"
 current_api_version: API version
 
 ----------------------------------------------------------------------------------------
-## Extract website only
+## Extract website only and from html source
+#### Description: Extract and show link with unstatus ( faster if you have so many link from website or html source)
+```php
+$html = <<<HTML
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>demo</title>
+<body>
+http://www.mediafire.com/download/vfl1t7u2bjta3am/0.24_0.zip
+http://www.mediafire.com/download/0dbmtx551cy5niu/0321659570_.rar
+https://www.oboom.com/AV7XFKW9
+https://www.oboom.com/B0H9DTVG/google-play-apk-10-12-12-02.jpg
+</body>
+</html>
+HTML;
 
+
+$ch = curl_init();
+curl_setopt($ch, CURLOPT_URL, "http://api.urlchecker.org/v3/");
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+curl_setopt($ch, CURLOPT_POST, true);
+
+$data = array(
+    "key" => "YOUR_API_KEY",
+    "response_format" => "json",
+    "extract" => 1, // extract link to unstatus only 
+    "html" => $html // send html source code 
+);
+
+curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+$output = curl_exec($ch);
+$info = curl_getinfo($ch);
+curl_close($ch);
+
+echo $output;
+```
 
 
 ## Extract website or folder
