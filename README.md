@@ -1,5 +1,5 @@
-#Url Checker API Documentation
-### Update Apr 10, 2017
+## Url Checker API Documentation
+## Update Apr 10, 2017
 
 ---------
 URL:http://urlchecker.org/#api
@@ -11,11 +11,13 @@ and get file name,file size
 URL:https://www.youtube.com/watch?v=oEOruOtLSWo
 
 ### Required parameters
-- key : API key( login http://urlchecker.org/member/ and get this key)
+- key : API key( login http://urlchecker.org/member/ and get this key) (* requited)
 - link :single Links ( see list host support from http://urlchecker.org/#hosts) (rapidgator.net,mediafire.com...)
 - url : website or folder need extract ( extract and check )
+- html: send html source code (accept post method only)
 - decodelink : Decode single link only (adf.ly,safelinking.net,bit.ly ...)
 - decodelinks : Decode multi link or website 
+- extract (option) : default 0 ( set to 1 if you want extract only show link list only)
 
 *Chose one of parameter only*
 
@@ -31,7 +33,11 @@ Size of file : "KB", "MB" "GB" or "TB"
 current_api_version: API version
 
 ----------------------------------------------------------------------------------------
-### Extract website or folder
+## Extract website only
+
+
+
+## Extract website or folder
 Example: with php
 
 *Demo worked with example link only*
@@ -88,7 +94,7 @@ Example: with php
            </item>
         </response>
 ```
-### Decode multi link or website container encode links (adf.ly,safelinking.net,bit.ly ...)
+## Decode multi link or website container encode links (adf.ly,safelinking.net,bit.ly ...)
 Example: with php
 
 *Demo worked with example link only*
@@ -154,7 +160,7 @@ Example: with php
                 </item>
         </response>
 ```
-### Decode single link (adf.ly,safelinking.net,bit.ly ...)
+## Decode single link (adf.ly,safelinking.net,bit.ly ...)
 Example: with php
 
 *Demo worked with example link only*
@@ -202,7 +208,7 @@ Example: with php
         </response>
 ```
 
-### Check single link (file host)
+## Check single link (file host rapidgator,mediafire,mega.nz...)
 Example: with php
 
   Out put xml
