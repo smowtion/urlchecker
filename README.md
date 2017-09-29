@@ -20,6 +20,8 @@ and get file name,file size
 URL:https://www.youtube.com/watch?v=oEOruOtLSWo
 
 ### Required parameters
+ API END POINT : https://api5.urlchecker.org/v3/ ( replace older version)
+
 - key : API key( login http://urlchecker.org/member/ and get this key) (* requited)
 - link :single Links ( see list host support from http://urlchecker.org/#hosts) (rapidgator.net,mediafire.com...)
 - url : website or folder need extract ( extract and check )
