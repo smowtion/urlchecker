@@ -87,7 +87,7 @@ Example: with php
 
 *Demo worked with example link only*
 
-*Direct query http://api.urlchecker.org/?url=http://pastebin.com/raw.php?i=d2XYaiYf*
+*Direct query http://api.urlchecker.org/?url=http://pastebin.com/raw.php?i=d2XYaiYf&key=YOUR_API_KEY*
 ```php
    <?php
     $response_format="xml";
@@ -144,7 +144,7 @@ Example: with php
 
 *Demo worked with example link only*
 
-*Direct query http://api.urlchecker.org/?decodelinks=http://pastebin.com/raw.php?i=A1K3TxXE*
+*Direct query http://api.urlchecker.org/?decodelinks=http://pastebin.com/raw.php?i=A1K3TxXE&key=YOUR_API_KEY*
 
 ```php
    <?php
@@ -210,7 +210,7 @@ Example: with php
 
 *Demo worked with example link only*
 
-*Direct query http://api.urlchecker.org/?decodelink=http://adf.ly/rz645*
+*Direct query http://api.urlchecker.org/?decodelink=http://adf.ly/rz645&key=YOUR_API_KEY*
 
 ```php
    <?php
