@@ -1,0 +1,1339 @@
+<?php
+
+// URLC api v3 test
+
+$html = <<<HTML
+       
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>(GET) Ben Settle - Copy Slacker</title>
+
+<script src="/cdn-cgi/apps/head/yWhojLTrnH_uPURAVzoPEG9BKrM.js"></script><link rel="icon" href="http://www.bestblackhatforum.com/favicon.ico" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<script type="text/javascript" src="http://bestblackhatforum.com/jscripts/prototype.js?ver=1603"></script>
+<script type="text/javascript" src="http://bestblackhatforum.com/jscripts/popup_menu.js?ver=1600"></script>
+<script type="text/javascript" src="http://bestblackhatforum.com/jscripts/general.js?ver=1603"></script>
+<link type="text/css" rel="stylesheet" href="http://bestblackhatforum.com/cache/themes/theme12/global.css" />
+<link type="text/css" rel="stylesheet" href="http://bestblackhatforum.com/css.php?stylesheet=65" />
+<link type="text/css" rel="stylesheet" href="http://bestblackhatforum.com/css.php?stylesheet=66" />
+<script type="text/javascript">
+<!--
+	var cookieDomain = ".bestblackhatforum.com";
+	var cookiePath = "/";
+	var cookiePrefix = "";
+	var deleteevent_confirm = "Are you sure you want to delete this event?";
+	var removeattach_confirm = "Are you sure you want to remove the selected attachment from this post?";
+	var loading_text = 'Loading. <br />Please Wait..';
+	var saving_changes = 'Saving changes..';
+	var use_xmlhttprequest = "1";
+	var my_post_key = "6de8998a196f7772b3ee60f7d1009104";
+	var imagepath = "images/cpalead";
+// -->
+</script>
+
+
+</script>
+<script type="text/javascript" src="jscripts/thread.js?ver=1603"></script>
+<meta name="description" content="I still have the full course. Won't post here as Elbenbo is watching... If you want the link from me, drop me max reps, then shoot me a pm (I'll be able to see if you sent reps or not) Once I confirm," />
+<link rel="canonical" href="http://bestblackhatforum.com/Thread-GET-Ben-Settle-Copy-Slacker?page=15" />
+</head>
+<body>
+
+<div id="container">
+<a name="top" id="top"></a>
+<div id="header">
+<div class="logo"><a href="http://bestblackhatforum.com/index.php"><img src="http://bestblackhatforum.com/images/cpalead/logo.png" width="510" height="138" alt="Best Blackhat Forum" title="Best Blackhat Forum" /></a></div>
+<div class="navbar">
+<ul id="list-nav">
+<li><a href="http://bestblackhatforum.com/search.php">Search</a></li>
+</ul>
+</div>
+<hr class="hidden" />
+<div id="panel">
+
+<span style="float:right;"><strong>Current time:</strong> 09-21-2017, 07:11 AM</span>
+<strong>Welcome back, <a href="http://bestblackhatforum.com/User-dashkoalexander1">dashkoalexander1</a></strong>. You last visited: Today, 07:02 AM (<a href="http://bestblackhatforum.com/usercp.php"><strong>User CP</strong></a> &mdash; <a href="http://bestblackhatforum.com/member.php?action=logout&amp;logoutkey=fa360fa9014576bb4f5f241ec0fd0be3">Log Out</a>)<br />
+<span class="links">
+<a href="#" onclick="MyBB.popupWindow('http://bestblackhatforum.com/misc.php?action=buddypopup', 'buddyList', 350, 350);">Open Buddy List</a>
+</span>
+<a href="http://bestblackhatforum.com/search.php?action=getnew">View New Posts</a> | <a href="http://bestblackhatforum.com/search.php?action=getdaily">View Today's Posts</a> | <a href="http://bestblackhatforum.com/private.php">Private Messages</a> (Unread 0, Total 0)
+
+</div>
+</div>
+<hr class="hidden" />
+<br class="clear" />
+<div id="content">
+<div align='center'><a href="http://bestblackhatforum.com/Thread-ImageTypers-The-best-captcha-solving-service-we-can-solve-invisible-recaptchas-at-cheapest-rates
+"><img src='images/my_compas/72.gif' alt='72.gif' title='Advertisement' /></a></div>
+<div class="navigation">
+
+<a href="http://bestblackhatforum.com/index.php">Best Blackhat Forum</a>
+/
+
+
+<a href="Forum-Freebies">Freebies</a>
+/
+
+
+<a href="Forum-Copywriting-Section">Copywriting Section</a>
+
+/
+
+<span class="active">(GET) Ben Settle - Copy Slacker</span>
+
+</div>
+
+<br />
+
+
+<table border="0" cellspacing="1" cellpadding="4" class="tborder">
+<tr>
+<td class="thead"><strong>Search</strong> <span class="smalltext"><a href="search.php" style="vertical-align: top;">(advanced search)</a></span></td>
+</tr>
+<tr>
+<td class="trow1" align="center">
+<span class="smalltext"><strong>Use this Search form before posting, asking or make a new thread.</strong></span>
+<table>
+<tr>
+<td>
+<form method="post" action="search.php">
+<input type="hidden" name="action" value="do_search" />
+<input type="hidden" name="findthreadst" value="1" />
+<input type="hidden" name="forums" value="all" />
+<input type="hidden" name="showresults" value="threads" />
+<input type="text" class="textboxse" name="keywords" value="" />
+<input type="submit" class="button" value="Search Titles" />
+</form>
+</td>
+<td>
+<form method="post" action="search.php">
+<input type="hidden" name="action" value="do_search" />
+<input type="hidden" name="postthread" value="1" />
+<input type="hidden" name="forums" value="all" />
+<input type="hidden" name="showresults" value="posts" />
+<input type="text" class="textboxse" name="keywords" value="" />
+<input type="submit" class="button" value="Search Post" />
+</form>
+</td>
+</tr>
+<tr><td></td><td><span class="smalltext" style="font-style:italic;">Tips: Use Quotation mark to search words (eg. "How To Make Money Online")</span></td></tr>
+</table>
+</td>
+</tr>
+</table><br />
+
+<div class="float_left">
+
+<div class="pagination">
+<span class="pages">Pages (16):</span>
+
+<a href="Thread-GET-Ben-Settle-Copy-Slacker?page=14" class="pagination_previous">&laquo; Previous</a>
+
+<a href="Thread-GET-Ben-Settle-Copy-Slacker?page=1" class="pagination_first">1</a> ...
+
+<a href="Thread-GET-Ben-Settle-Copy-Slacker?page=12" class="pagination_page">12</a>
+
+<a href="Thread-GET-Ben-Settle-Copy-Slacker?page=13" class="pagination_page">13</a>
+
+<a href="Thread-GET-Ben-Settle-Copy-Slacker?page=14" class="pagination_page">14</a>
+
+<span class="pagination_current">15</span>
+
+<a href="Thread-GET-Ben-Settle-Copy-Slacker?page=16" class="pagination_page">16</a>
+
+<a href="Thread-GET-Ben-Settle-Copy-Slacker?page=16" class="pagination_next">Next &raquo;</a>
+
+</div>
+
+</div>
+<div class="float_right">
+
+<a class="postbit_large" href="newreply.php?tid=268496">New Reply</a><br />&nbsp;
+
+</div>
+<table border="0" cellspacing="0" cellpadding="4" class="tborder" style="clear: both; border-bottom-width: 0;">
+<tr>
+<td class="thead" colspan="2">
+<div>
+<h1><a href="showthread.php?&amp;tid=268496&amp;pid=2059436#pid2059436">(GET) Ben Settle - Copy Slacker</a></h1></div>
+</td>
+</tr>
+</table>
+<div id="posts">
+
+<a name="pid2059436" id="pid2059436"></a>
+<table border="0" cellspacing="0" cellpadding="4" class="tborder" style="border-top-width: 0; " id="post_2059436">
+<tbody>
+<tr>
+<td class="tcat">
+<div class="float_left smalltext">
+04-19-2017, 03:07 PM <span id="edited_by_2059436"></span>
+</div>
+
+<div style="float: right; width: auto; vertical-align: top"><span class="smalltext"><strong>Post: <a href="Thread-GET-Ben-Settle-Copy-Slacker?pid=2059436#pid2059436">#141</a></strong></span></div>
+
+</td>
+</tr>
+<tr>
+<td class="trow1  ">
+<table cellspacing="0" cellpadding="0" border="0" style="width: 100%;">
+<tr>
+<td class="post_avatar" width="1" style="padding-right: 10px;">
+
+<a href="User-nowimhere"><img src="./uploads/avatars/avatar_15618.jpg?dateline=1488320105" alt="" width="150" height="150" /></a>
+
+</td>
+<td class="post_author">
+<strong><span class="largetext"><a href="http://bestblackhatforum.com/User-nowimhere"><span style="color: yellow;text-shadow: 0px 0px 5px #39c70d;background:url('images/0.gif');"><strong><em>nowimhere</em></strong></span></a></span></strong>
+<img src="images/cpalead/buddy_offline.gif" title="Offline" alt="Offline" />
+<br /> <span class="smalltext">
+Member<br />
+<img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><br />
+
+<img src="images/groupimages/bbhfbadges/uploader.png" alt=" " title=" " />
+<br /><img src='/images/groupimages/bbhfbadges/gb_lover.png'>
+</span>
+</td>
+<td class="smalltext post_author_info" width="165">
+
+<div class="post_userdetails">Posts: 166</div>
+<div class="post_userdetails">Joined: Apr 2012</div>
+
+<br />Reputation: <a href="reputation.php?uid=15618"><strong class="reputation_positive">2112</strong></a>
+
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="trow2 post_content  ">
+<span class="smalltext"><strong>RE: (GET) Ben Settle - Copy Slacker </strong></span>
+<div class="post_body" id="pid_2059436">
+I still have the full course. Won't post here as Elbenbo is watching...<br />
+<br />
+If you want the link from me, drop me max reps, <br />
+then shoot me a pm (I'll be able to see if you sent reps<br />
+or not)<br />
+<br />
+Once I confirm, I'll send you the download link...
+</div>
+<div class="post_meta" id="post_meta_2059436">
+</div>
+</td>
+</tr>
+<tr>
+<td class="trow1 post_buttons  ">
+<div class="author_buttons float_left">
+
+<a class="postbit" href="private.php?action=send&amp;uid=15618">PM</a>
+
+<a class="postbit" href="search.php?action=finduser&amp;uid=15618">find</a>
+
+<a class="postbit" href="javascript:Thread.reportPost(2059436);">Report</a>
+
+<a href="newreply.php?tid=268496&amp;replyto=2059436" class="postbit">Quote</a>
+
+ </div>
+<div class="post_management_buttons float_right">
+
+<a class="postbit" href="javascript:MyBB.reputation(15618,2059436);">[+1] Add Reputation</a>
+ </div>
+</td>
+</tr>
+<tr style="" id="tyl_2059436">
+</tr> </tbody>
+</table>
+
+<a name="pid2066552" id="pid2066552"></a>
+<table border="0" cellspacing="0" cellpadding="4" class="tborder" style="margin-top: 5px; " id="post_2066552">
+<tbody>
+<tr>
+<td class="tcat">
+<div class="float_left smalltext">
+04-26-2017, 09:02 PM <span id="edited_by_2066552">
+<span class="smalltext">(This post was last modified: 05-05-2017 11:40 AM by <a href="http://bestblackhatforum.com/User-teratron">teratron</a>.)</span>
+</span>
+</div>
+
+<div style="float: right; width: auto; vertical-align: top"><span class="smalltext"><strong>Post: <a href="Thread-GET-Ben-Settle-Copy-Slacker?pid=2066552#pid2066552">#142</a></strong></span></div>
+
+</td>
+</tr>
+<tr>
+<td class="trow1  ">
+<table cellspacing="0" cellpadding="0" border="0" style="width: 100%;">
+<tr>
+<td class="post_avatar" width="1" style="">
+</td>
+<td class="post_author">
+<strong><span class="largetext"><a href="http://bestblackhatforum.com/User-teratron"><span style="color: yellow;text-shadow: 0px 0px 5px #39c70d;background:url('images/0.gif');"><strong><em>teratron</em></strong></span></a></span></strong>
+<img src="images/cpalead/buddy_offline.gif" title="Offline" alt="Offline" />
+<br /> <span class="smalltext">
+Member<br />
+<img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><br />
+
+<img src="images/groupimages/bbhfbadges/uploader.png" alt=" " title=" " />
+<br /><img src='/images/groupimages/bbhfbadges/gb_lover.png'>
+</span>
+</td>
+<td class="smalltext post_author_info" width="165">
+
+<div class="post_userdetails">Posts: 64</div>
+<div class="post_userdetails">Joined: Oct 2013</div>
+
+<br />Reputation: <a href="reputation.php?uid=232971"><strong class="reputation_positive">193</strong></a>
+
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="trow2 post_content  ">
+<span class="smalltext"><strong>RE: (GET) Ben Settle - Copy Slacker </strong></span>
+<div class="post_body" id="pid_2066552">
+No Disrespect meant to the OP, but I will share what I have via my uploads. <img src="images/smilies/happy.gif" style="vertical-align: middle;" border="0" alt="Happydance" title="Happydance" /> Sorry guys I only have the main videos and audios, but not the bonus content...<br />
+<br />
+Main Videos and Audios: <a href="http://cloud2.zoolz.com/s-mlqxFR4l" target="_blank">All 8 Videos and 6 Audios</a><br />
+<br />
+The password is the same as this forum's password. I will share the remaining two audios by PM. Just reply here so I can PM you the links. To save space, the audios have been compiled into four 7zip files... <br />
+Been very busy with a hellish client, so had to do them separately. <br />
+<br />
+Give reps if it helped you!!! Thanks! God bless ya!!
+</div>
+
+<div class="post_meta" id="post_meta_2066552">
+</div>
+</td>
+</tr>
+<tr>
+<td class="trow1 post_buttons  ">
+<div class="author_buttons float_left">
+
+<a class="postbit" href="private.php?action=send&amp;uid=232971">PM</a>
+
+<a class="postbit" href="search.php?action=finduser&amp;uid=232971">find</a>
+
+<a class="postbit" href="javascript:Thread.reportPost(2066552);">Report</a>
+
+<a href="newreply.php?tid=268496&amp;replyto=2066552" class="postbit">Quote</a>
+
+ </div>
+<div class="post_management_buttons float_right">
+
+<a class="postbit" href="javascript:MyBB.reputation(232971,2066552);">[+1] Add Reputation</a>
+ </div>
+</td>
+</tr>
+<tr style="" id="tyl_2066552">
+</tr> </tbody>
+</table>
+
+<a name="pid2069133" id="pid2069133"></a>
+<table border="0" cellspacing="0" cellpadding="4" class="tborder" style="margin-top: 5px; " id="post_2069133">
+<tbody>
+<tr>
+<td class="tcat">
+<div class="float_left smalltext">
+04-29-2017, 10:30 AM <span id="edited_by_2069133"></span>
+</div>
+
+<div style="float: right; width: auto; vertical-align: top"><span class="smalltext"><strong>Post: <a href="Thread-GET-Ben-Settle-Copy-Slacker?pid=2069133#pid2069133">#143</a></strong></span></div>
+
+</td>
+</tr>
+<tr>
+<td class="trow1  ">
+<table cellspacing="0" cellpadding="0" border="0" style="width: 100%;">
+<tr>
+<td class="post_avatar" width="1" style="">
+</td>
+<td class="post_author">
+<strong><span class="largetext"><a href="http://bestblackhatforum.com/User-gilkun"><strong><em>gilkun</em></strong></a></span></strong>
+<img src="images/cpalead/buddy_offline.gif" title="Offline" alt="Offline" />
+<br /> <span class="smalltext">
+Newbie<br />
+<img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><br />
+
+<img src="images/groupimages/english/member.png" alt=" " title=" " />
+
+</span>
+</td>
+<td class="smalltext post_author_info" width="165">
+
+<div class="post_userdetails">Posts: 2</div>
+<div class="post_userdetails">Joined: Jan 2017</div>
+
+<br />Reputation: <a href="reputation.php?uid=324881"><strong class="reputation_neutral">0</strong></a>
+
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="trow2 post_content  ">
+<span class="smalltext"><strong>RE: (GET) Ben Settle - Copy Slacker </strong></span>
+<div class="post_body" id="pid_2069133">
+Hi Teratron, can you please reupload the link? I'm getting a URL not valid error. Thanks!
+</div>
+<div class="post_meta" id="post_meta_2069133">
+</div>
+</td>
+</tr>
+<tr>
+<td class="trow1 post_buttons  ">
+<div class="author_buttons float_left">
+
+<a class="postbit" href="private.php?action=send&amp;uid=324881">PM</a>
+
+<a class="postbit" href="search.php?action=finduser&amp;uid=324881">find</a>
+
+<a class="postbit" href="javascript:Thread.reportPost(2069133);">Report</a>
+
+<a href="newreply.php?tid=268496&amp;replyto=2069133" class="postbit">Quote</a>
+
+ </div>
+<div class="post_management_buttons float_right">
+
+<a class="postbit" href="javascript:MyBB.reputation(324881,2069133);">[+1] Add Reputation</a>
+ </div>
+</td>
+</tr>
+<tr style="" id="tyl_2069133">
+</tr> </tbody>
+</table>
+
+<a name="pid2073551" id="pid2073551"></a>
+<table border="0" cellspacing="0" cellpadding="4" class="tborder" style="margin-top: 5px; " id="post_2073551">
+<tbody>
+<tr>
+<td class="tcat">
+<div class="float_left smalltext">
+05-04-2017, 02:30 PM <span id="edited_by_2073551"></span>
+</div>
+
+<div style="float: right; width: auto; vertical-align: top"><span class="smalltext"><strong>Post: <a href="Thread-GET-Ben-Settle-Copy-Slacker?pid=2073551#pid2073551">#144</a></strong></span></div>
+
+</td>
+</tr>
+<tr>
+<td class="trow1  ">
+<table cellspacing="0" cellpadding="0" border="0" style="width: 100%;">
+<tr>
+<td class="post_avatar" width="1" style="">
+</td>
+<td class="post_author">
+<strong><span class="largetext"><a href="http://bestblackhatforum.com/User-megpite"><strong><em>megpite</em></strong></a></span></strong>
+<img src="images/cpalead/buddy_offline.gif" title="Offline" alt="Offline" />
+<br /> <span class="smalltext">
+Member<br />
+<img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><br />
+
+<img src="images/groupimages/english/member.png" alt=" " title=" " />
+
+</span>
+</td>
+<td class="smalltext post_author_info" width="165">
+
+<div class="post_userdetails">Posts: 121</div>
+<div class="post_userdetails">Joined: Mar 2014</div>
+
+<br />Reputation: <a href="reputation.php?uid=247929"><strong class="reputation_positive">514</strong></a>
+
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="trow2 post_content  ">
+<span class="smalltext"><strong>RE: (GET) Ben Settle - Copy Slacker </strong></span>
+<div class="post_body" id="pid_2073551">
+Please re-up someone. +Max Reps
+</div>
+<div class="post_meta" id="post_meta_2073551">
+</div>
+</td>
+</tr>
+<tr>
+<td class="trow1 post_buttons  ">
+<div class="author_buttons float_left">
+
+<a class="postbit" href="private.php?action=send&amp;uid=247929">PM</a>
+
+<a class="postbit" href="search.php?action=finduser&amp;uid=247929">find</a>
+
+<a class="postbit" href="javascript:Thread.reportPost(2073551);">Report</a>
+
+<a href="newreply.php?tid=268496&amp;replyto=2073551" class="postbit">Quote</a>
+
+ </div>
+<div class="post_management_buttons float_right">
+
+<a class="postbit" href="javascript:MyBB.reputation(247929,2073551);">[+1] Add Reputation</a>
+ </div>
+</td>
+</tr>
+<tr style="" id="tyl_2073551">
+</tr> </tbody>
+</table>
+
+<a name="pid2074609" id="pid2074609"></a>
+<table border="0" cellspacing="0" cellpadding="4" class="tborder" style="margin-top: 5px; " id="post_2074609">
+<tbody>
+<tr>
+<td class="tcat">
+<div class="float_left smalltext">
+05-05-2017, 01:23 PM <span id="edited_by_2074609">
+<span class="smalltext">(This post was last modified: 05-05-2017 01:34 PM by <a href="http://bestblackhatforum.com/User-teratron">teratron</a>.)</span>
+</span>
+</div>
+
+<div style="float: right; width: auto; vertical-align: top"><span class="smalltext"><strong>Post: <a href="Thread-GET-Ben-Settle-Copy-Slacker?pid=2074609#pid2074609">#145</a></strong></span></div>
+
+</td>
+</tr>
+<tr>
+<td class="trow1  ">
+<table cellspacing="0" cellpadding="0" border="0" style="width: 100%;">
+<tr>
+<td class="post_avatar" width="1" style="">
+</td>
+<td class="post_author">
+<strong><span class="largetext"><a href="http://bestblackhatforum.com/User-teratron"><span style="color: yellow;text-shadow: 0px 0px 5px #39c70d;background:url('images/0.gif');"><strong><em>teratron</em></strong></span></a></span></strong>
+<img src="images/cpalead/buddy_offline.gif" title="Offline" alt="Offline" />
+<br /> <span class="smalltext">
+Member<br />
+<img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><br />
+
+<img src="images/groupimages/bbhfbadges/uploader.png" alt=" " title=" " />
+<br /><img src='/images/groupimages/bbhfbadges/gb_lover.png'>
+</span>
+</td>
+<td class="smalltext post_author_info" width="165">
+
+<div class="post_userdetails">Posts: 64</div>
+<div class="post_userdetails">Joined: Oct 2013</div>
+
+<br />Reputation: <a href="reputation.php?uid=232971"><strong class="reputation_positive">193</strong></a>
+
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="trow2 post_content  ">
+<span class="smalltext"><strong>RE: (GET) Ben Settle - Copy Slacker </strong></span>
+<div class="post_body" id="pid_2074609">
+<blockquote><cite><span> (05-04-2017 02:30 PM)</span>megpite Wrote: <a href="http://bestblackhatforum.com/Thread-GET-Ben-Settle-Copy-Slacker?pid=2073551#pid2073551" class="quick_jump">&nbsp;</a></cite>Please re-up someone. +Max Reps</blockquote>
+<br />
+This link is only valid for the next 7 days. Enjoy! Mirrors are not welcome, as I took great pains to upload this. Will update it with a Dropbox link that lasts as long as my account is active when seven days are up - I would have normally liked to make it PERMANENT but I noticed I am receiving a lot of download notifications (likely by leechers) but no one has repped me for my help in uploading this (not that this is a REQUIREMENT). But surely it doesn't hurt to be thankful for this resource?<br />
+<br />
+<img src="images/smilies/tnx.gif" style="vertical-align: middle;" border="0" alt="Thanks" title="Thanks" /><br />
+<br />
+<a href="http://cloud2.zoolz.com/s-xyAlAors" target="_blank">Password is the same as this forum's</a><br />
+<br />
+P.S. The audios are in 7-Zip format, which you can download for free @ <a href="http://www.7-zip.org/download.html" target="_blank">7-Zip</a><br />
+I did this so there would be maximum compression for ease of uploading, as there is no point in compressing videos since they can't always be smaller. I uploaded this in a hurry, so do let me know below if anything is missing, and I will upload it by later today (if there is).<br />
+I have a lot of copywriting resources that I will upload over the next week...take care and I love this community!
+</div>
+<div class="post_meta" id="post_meta_2074609">
+</div>
+</td>
+</tr>
+<tr>
+<td class="trow1 post_buttons  ">
+<div class="author_buttons float_left">
+
+<a class="postbit" href="private.php?action=send&amp;uid=232971">PM</a>
+
+<a class="postbit" href="search.php?action=finduser&amp;uid=232971">find</a>
+
+<a class="postbit" href="javascript:Thread.reportPost(2074609);">Report</a>
+
+<a href="newreply.php?tid=268496&amp;replyto=2074609" class="postbit">Quote</a>
+
+ </div>
+<div class="post_management_buttons float_right">
+
+<a class="postbit" href="javascript:MyBB.reputation(232971,2074609);">[+1] Add Reputation</a>
+ </div>
+</td>
+</tr>
+<tr style="" id="tyl_2074609">
+</tr> </tbody>
+</table>
+
+<a name="pid2082209" id="pid2082209"></a>
+<table border="0" cellspacing="0" cellpadding="4" class="tborder" style="margin-top: 5px; " id="post_2082209">
+<tbody>
+<tr>
+<td class="tcat">
+<div class="float_left smalltext">
+05-12-2017, 08:01 AM <span id="edited_by_2082209"></span>
+</div>
+
+<div style="float: right; width: auto; vertical-align: top"><span class="smalltext"><strong>Post: <a href="Thread-GET-Ben-Settle-Copy-Slacker?pid=2082209#pid2082209">#146</a></strong></span></div>
+
+</td>
+</tr>
+<tr>
+<td class="trow1  ">
+<table cellspacing="0" cellpadding="0" border="0" style="width: 100%;">
+<tr>
+<td class="post_avatar" width="1" style="">
+</td>
+<td class="post_author">
+<strong><span class="largetext"><a href="http://bestblackhatforum.com/User-dltbenson"><img src="images/stars/vip.gif" width="16" height="16"><span style="color: yellow;text-shadow: 0px 0px 5px #39c70d;background:url('images/0.gif');"><strong><em>dltbenson</em></strong></span></a></span></strong>
+<img src="images/cpalead/buddy_offline.gif" title="Offline" alt="Offline" />
+<br /> <span class="smalltext">
+Super Active BBHF Member<br />
+<img src="images/medal1.gif" border="0" alt="*" /><img src="images/medal1.gif" border="0" alt="*" /><img src="images/medal1.gif" border="0" alt="*" /><img src="images/medal1.gif" border="0" alt="*" /><img src="images/medal1.gif" border="0" alt="*" /><br />
+
+<img src="/images/groupimages/bbhfbadges/Super-VIP-Fixed-Malice-SEOmega-3.png" alt=" " title=" " />
+<br /><img src='/images/groupimages/bbhfbadges/gb_lover.png'>
+</span>
+</td>
+<td class="smalltext post_author_info" width="165">
+
+<div class="post_userdetails">Posts: 5,443</div>
+<div class="post_userdetails">Joined: Apr 2012</div>
+
+<br />Reputation: <a href="reputation.php?uid=17208"><strong class="reputation_positive">1662</strong></a>
+
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="trow2 post_content  ">
+<span class="smalltext"><strong>RE: (GET) Ben Settle - Copy Slacker </strong></span>
+<div class="post_body" id="pid_2082209">
++5 Reps to Nowimhere
+</div>
+<div class="post_meta" id="post_meta_2082209">
+</div>
+</td>
+</tr>
+<tr>
+<td class="trow1 post_buttons  ">
+ <div class="author_buttons float_left">
+
+<a class="postbit" href="private.php?action=send&amp;uid=17208">PM</a>
+
+<a class="postbit" href="search.php?action=finduser&amp;uid=17208">find</a>
+
+<a class="postbit" href="javascript:Thread.reportPost(2082209);">Report</a>
+
+<a href="newreply.php?tid=268496&amp;replyto=2082209" class="postbit">Quote</a>
+
+ </div>
+<div class="post_management_buttons float_right">
+
+<a class="postbit" href="javascript:MyBB.reputation(17208,2082209);">[+1] Add Reputation</a>
+ </div>
+</td>
+</tr>
+<tr style="" id="tyl_2082209">
+</tr> </tbody>
+</table>
+
+<a name="pid2082343" id="pid2082343"></a>
+<table border="0" cellspacing="0" cellpadding="4" class="tborder" style="margin-top: 5px; " id="post_2082343">
+<tbody>
+<tr>
+<td class="tcat">
+<div class="float_left smalltext">
+05-12-2017, 12:20 PM <span id="edited_by_2082343"></span>
+</div>
+
+<div style="float: right; width: auto; vertical-align: top"><span class="smalltext"><strong>Post: <a href="Thread-GET-Ben-Settle-Copy-Slacker?pid=2082343#pid2082343">#147</a></strong></span></div>
+
+</td>
+</tr>
+<tr>
+<td class="trow1  ">
+<table cellspacing="0" cellpadding="0" border="0" style="width: 100%;">
+<tr>
+<td class="post_avatar" width="1" style="padding-right: 10px;">
+
+<a href="User-nowimhere"><img src="./uploads/avatars/avatar_15618.jpg?dateline=1488320105" alt="" width="150" height="150" /></a>
+
+</td>
+<td class="post_author">
+<strong><span class="largetext"><a href="http://bestblackhatforum.com/User-nowimhere"><span style="color: yellow;text-shadow: 0px 0px 5px #39c70d;background:url('images/0.gif');"><strong><em>nowimhere</em></strong></span></a></span></strong>
+<img src="images/cpalead/buddy_offline.gif" title="Offline" alt="Offline" />
+<br /> <span class="smalltext">
+Member<br />
+<img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><br />
+
+<img src="images/groupimages/bbhfbadges/uploader.png" alt=" " title=" " />
+<br /><img src='/images/groupimages/bbhfbadges/gb_lover.png'>
+</span>
+</td>
+<td class="smalltext post_author_info" width="165">
+
+<div class="post_userdetails">Posts: 166</div>
+<div class="post_userdetails">Joined: Apr 2012</div>
+
+<br />Reputation: <a href="reputation.php?uid=15618"><strong class="reputation_positive">2112</strong></a>
+
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="trow2 post_content  ">
+<span class="smalltext"><strong>RE: (GET) Ben Settle - Copy Slacker </strong></span>
+<div class="post_body" id="pid_2082343">
+<blockquote><cite><span> (05-12-2017 08:01 AM)</span>dltbenson Wrote: <a href="http://bestblackhatforum.com/Thread-GET-Ben-Settle-Copy-Slacker?pid=2082209#pid2082209" class="quick_jump">&nbsp;</a></cite>+5 Reps to Nowimhere</blockquote>
+<br />
+Thanks man. <br />
+<br />
+My link is still available... Just drop me reps here <br />
+then send me a pm for YOUR access to this as well <br />
+<br />
+Cheers :)
+</div>
+<div class="post_meta" id="post_meta_2082343">
+</div>
+</td>
+</tr>
+<tr>
+<td class="trow1 post_buttons  ">
+<div class="author_buttons float_left">
+
+<a class="postbit" href="private.php?action=send&amp;uid=15618">PM</a>
+
+<a class="postbit" href="search.php?action=finduser&amp;uid=15618">find</a>
+
+<a class="postbit" href="javascript:Thread.reportPost(2082343);">Report</a>
+
+<a href="newreply.php?tid=268496&amp;replyto=2082343" class="postbit">Quote</a>
+
+ </div>
+<div class="post_management_buttons float_right">
+
+<a class="postbit" href="javascript:MyBB.reputation(15618,2082343);">[+1] Add Reputation</a>
+ </div>
+</td>
+</tr>
+<tr style="" id="tyl_2082343">
+</tr> </tbody>
+</table>
+
+<a name="pid2153210" id="pid2153210"></a>
+<table border="0" cellspacing="0" cellpadding="4" class="tborder" style="margin-top: 5px; " id="post_2153210">
+<tbody>
+<tr>
+<td class="tcat">
+<div class="float_left smalltext">
+07-20-2017, 09:26 PM <span id="edited_by_2153210"></span>
+</div>
+
+<div style="float: right; width: auto; vertical-align: top"><span class="smalltext"><strong>Post: <a href="Thread-GET-Ben-Settle-Copy-Slacker?pid=2153210#pid2153210">#148</a></strong></span></div>
+
+</td>
+</tr>
+<tr>
+<td class="trow1  ">
+<table cellspacing="0" cellpadding="0" border="0" style="width: 100%;">
+<tr>
+<td class="post_avatar" width="1" style="">
+</td>
+<td class="post_author">
+<strong><span class="largetext"><a href="http://bestblackhatforum.com/User-Razmataz13"><img src="images/stars/vip.gif" width="16" height="16"><span style="color: yellow;text-shadow: 0px 0px 5px #39c70d;background:url('images/0.gif');"><strong><em>Razmataz13</em></strong></span></a></span></strong>
+<a href="online.php" title="Online"><img src="images/cpalead/buddy_online.gif" border="0" alt="Online" /></a>
+<br /> <span class="smalltext">
+Consistent Action 2 Consistently Prosper<br />
+<img src="images/medal1.gif" border="0" alt="*" /><img src="images/medal1.gif" border="0" alt="*" /><img src="images/medal1.gif" border="0" alt="*" /><img src="images/medal1.gif" border="0" alt="*" /><img src="images/medal1.gif" border="0" alt="*" /><br />
+
+<img src="/images/groupimages/bbhfbadges/Super-VIP-Fixed-Malice-SEOmega-3.png" alt=" " title=" " />
+<br /><img src='/images/groupimages/bbhfbadges/reviewer.png'><br /><img src='images/groupimages/bbhfbadges/executiveaccess.png'><br /><img src='/images/groupimages/bbhfbadges/gb_lover.png'>
+</span>
+</td>
+<td class="smalltext post_author_info" width="165">
+
+<div class="post_userdetails">Posts: 5,902</div>
+<div class="post_userdetails">Joined: Oct 2012</div>
+
+<br />Reputation: <a href="reputation.php?uid=149050"><strong class="reputation_positive">6485</strong></a>
+
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="trow2 post_content  ">
+<span class="smalltext"><strong>RE: (GET) Ben Settle - Copy Slacker </strong></span>
+<div class="post_body" id="pid_2153210">
+<span style="color: #FFD700;"><span style="font-size: large;"><span style="font-weight: bold;">now<span style="color: #1E90FF;">im</span>here</span></span></span> have sent you PM with +Reps.
+</div>
+<div class="post_meta" id="post_meta_2153210">
+</div>
+</td>
+</tr>
+<tr>
+<td class="trow1 post_buttons  ">
+<div class="author_buttons float_left">
+
+<a class="postbit" href="private.php?action=send&amp;uid=149050">PM</a>
+
+<a class="postbit" href="search.php?action=finduser&amp;uid=149050">find</a>
+
+<a class="postbit" href="javascript:Thread.reportPost(2153210);">Report</a>
+
+<a href="newreply.php?tid=268496&amp;replyto=2153210" class="postbit">Quote</a>
+
+ </div>
+<div class="post_management_buttons float_right">
+
+<a class="postbit" href="javascript:MyBB.reputation(149050,2153210);">[+1] Add Reputation</a>
+ </div>
+</td>
+</tr>
+<tr style="" id="tyl_2153210">
+</tr> </tbody>
+</table>
+
+<a name="pid2155051" id="pid2155051"></a>
+<table border="0" cellspacing="0" cellpadding="4" class="tborder" style="margin-top: 5px; " id="post_2155051">
+<tbody>
+<tr>
+<td class="tcat">
+<div class="float_left smalltext">
+07-22-2017, 08:25 PM <span id="edited_by_2155051"></span>
+</div>
+
+<div style="float: right; width: auto; vertical-align: top"><span class="smalltext"><strong>Post: <a href="Thread-GET-Ben-Settle-Copy-Slacker?pid=2155051#pid2155051">#149</a></strong></span></div>
+
+</td>
+</tr>
+<tr>
+<td class="trow1  ">
+<table cellspacing="0" cellpadding="0" border="0" style="width: 100%;">
+<tr>
+<td class="post_avatar" width="1" style="">
+</td>
+<td class="post_author">
+<strong><span class="largetext"><a href="http://bestblackhatforum.com/User-Eagletsar"><strong><em>Eagletsar</em></strong></a></span></strong>
+<img src="images/cpalead/buddy_offline.gif" title="Offline" alt="Offline" />
+<br /> <span class="smalltext">
+Junior Member<br />
+<img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><img src="images/star.gif" border="0" alt="*" /><br />
+
+<img src="images/groupimages/english/member.png" alt=" " title=" " />
+
+</span>
+</td>
+<td class="smalltext post_author_info" width="165">
+
+<div class="post_userdetails">Posts: 26</div>
+<div class="post_userdetails">Joined: Jun 2017</div>
+
+<br />Reputation: <a href="reputation.php?uid=333946"><strong class="reputation_positive">18</strong></a>
+
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="trow2 post_content  ">
+<span class="smalltext"><strong>RE: (GET) Ben Settle - Copy Slacker </strong></span>
+<div class="post_body" id="pid_2155051">
+nowimhere I added as much reps as I can. Please send me the links.<br />
+<br />
+Thanks
+</div>
+<div class="post_meta" id="post_meta_2155051">
+</div>
+</td>
+</tr>
+<tr>
+<td class="trow1 post_buttons  ">
+<div class="author_buttons float_left">
+
+<a class="postbit" href="private.php?action=send&amp;uid=333946">PM</a>
+
+<a class="postbit" href="search.php?action=finduser&amp;uid=333946">find</a>
+
+<a class="postbit" href="javascript:Thread.reportPost(2155051);">Report</a>
+
+<a href="newreply.php?tid=268496&amp;replyto=2155051" class="postbit">Quote</a>
+
+ </div>
+<div class="post_management_buttons float_right">
+
+<a class="postbit" href="javascript:MyBB.reputation(333946,2155051);">[+1] Add Reputation</a>
+ </div>
+</td>
+</tr>
+<tr style="" id="tyl_2155051">
+</tr> </tbody>
+</table>
+
+<a name="pid2186429" id="pid2186429"></a>
+<table border="0" cellspacing="0" cellpadding="4" class="tborder" style="margin-top: 5px; " id="post_2186429">
+<tbody>
+<tr>
+<td class="tcat">
+<div class="float_left smalltext">
+08-23-2017, 02:11 AM <span id="edited_by_2186429"></span>
+</div>
+
+<div style="float: right; width: auto; vertical-align: top"><span class="smalltext"><strong>Post: <a href="Thread-GET-Ben-Settle-Copy-Slacker?pid=2186429#pid2186429">#150</a></strong></span></div>
+
+</td>
+</tr>
+<tr>
+<td class="trow1  ">
+<table cellspacing="0" cellpadding="0" border="0" style="width: 100%;">
+<tr>
+<td class="post_avatar" width="1" style="">
+</td>
+<td class="post_author">
+<strong><span class="largetext"><a href="http://bestblackhatforum.com/User-jojoin"><img src="images/stars/vip.gif" width="16" height="16"><span style="color: yellow;text-shadow: 0px 0px 5px #39c70d;background:url('images/0.gif');"><strong><em>jojoin</em></strong></span></a></span></strong>
+<img src="images/cpalead/buddy_offline.gif" title="Offline" alt="Offline" />
+<br /> <span class="smalltext">
+Super Active BBHF Member<br />
+<img src="images/medal1.gif" border="0" alt="*" /><img src="images/medal1.gif" border="0" alt="*" /><img src="images/medal1.gif" border="0" alt="*" /><img src="images/medal1.gif" border="0" alt="*" /><img src="images/medal1.gif" border="0" alt="*" /><br />
+
+<img src="/images/groupimages/bbhfbadges/Super-VIP-Fixed-Malice-SEOmega-3.png" alt=" " title=" " />
+
+</span>
+</td>
+<td class="smalltext post_author_info" width="165">
+
+<div class="post_userdetails">Posts: 5,031</div>
+<div class="post_userdetails">Joined: Oct 2012</div>
+
+<br />Reputation: <a href="reputation.php?uid=151645"><strong class="reputation_neutral">0</strong></a>
+
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="trow2 post_content  ">
+<span class="smalltext"><strong>RE: (GET) Ben Settle - Copy Slacker </strong></span>
+<div class="post_body" id="pid_2186429">
+@nowimhere, just rep you +5 and send PM.<br />
+Please share. Thanks
+</div>
+<div class="post_meta" id="post_meta_2186429">
+</div>
+</td>
+</tr>
+<tr>
+<td class="trow1 post_buttons  ">
+<div class="author_buttons float_left">
+
+<a class="postbit" href="private.php?action=send&amp;uid=151645">PM</a>
+
+<a class="postbit" href="search.php?action=finduser&amp;uid=151645">find</a>
+
+<a class="postbit" href="javascript:Thread.reportPost(2186429);">Report</a>
+
+<a href="newreply.php?tid=268496&amp;replyto=2186429" class="postbit">Quote</a>
+
+ </div>
+<div class="post_management_buttons float_right">
+
+<a class="postbit" href="javascript:MyBB.reputation(151645,2186429);">[+1] Add Reputation</a>
+ </div>
+</td>
+</tr>
+<tr style="" id="tyl_2186429">
+</tr> </tbody>
+</table>
+
+</div>
+<table border="0" cellspacing="0" cellpadding="4" class="tborder" style="border-top-width: 0;">
+<tr>
+<td colspan="2" class="tfoot">
+
+<div class="float_right">
+<form action="search.php" method="post">
+<input type="hidden" name="action" value="thread" />
+<input type="hidden" name="tid" value="268496" />
+<input type="text" name="keywords" value="Enter Keywords" onfocus="if(this.value == 'Enter Keywords') { this.value = ''; }" onblur="if(this.value=='') { this.value='Enter Keywords'; }" class="textbox" size="25" />
+<input type="submit" class="button" value="Search Thread" />
+</form>
+</div>
+
+</td>
+</tr>
+</table> <div class="float_left">
+
+<div class="pagination">
+<span class="pages">Pages (16):</span>
+
+<a href="Thread-GET-Ben-Settle-Copy-Slacker?page=14" class="pagination_previous">&laquo; Previous</a>
+
+<a href="Thread-GET-Ben-Settle-Copy-Slacker?page=1" class="pagination_first">1</a> ...
+
+<a href="Thread-GET-Ben-Settle-Copy-Slacker?page=12" class="pagination_page">12</a>
+
+<a href="Thread-GET-Ben-Settle-Copy-Slacker?page=13" class="pagination_page">13</a>
+
+<a href="Thread-GET-Ben-Settle-Copy-Slacker?page=14" class="pagination_page">14</a>
+
+<span class="pagination_current">15</span>
+
+<a href="Thread-GET-Ben-Settle-Copy-Slacker?page=16" class="pagination_page">16</a>
+
+<a href="Thread-GET-Ben-Settle-Copy-Slacker?page=16" class="pagination_next">Next &raquo;</a>
+
+</div>
+
+</div>
+<div style="padding-top: 4px;" class="float_right">
+
+<a class="postbit_large" href="newreply.php?tid=268496">New Reply</a><br />&nbsp;
+
+</div>
+<br style="clear: both;" />
+
+<br />
+<form method="post" action="newreply.php?tid=268496&amp;processed=1" name="quick_reply_form" id="quick_reply_form">
+<input type="hidden" name="my_post_key" value="6de8998a196f7772b3ee60f7d1009104" />
+<input type="hidden" name="subject" value="RE: (GET) Ben Settle - Copy Slacker" />
+<input type="hidden" name="action" value="do_newreply" />
+<input type="hidden" name="posthash" value="4ad0a6d7276497bb8f947a2344f86033" id="posthash" />
+<input type="hidden" name="quoted_ids" value="" id="quoted_ids" />
+<input type="hidden" name="lastpid" id="lastpid" value="2193453" />
+<input type="hidden" name="from_page" value="15" />
+<input type="hidden" name="tid" value="268496" />
+<input type="hidden" name="method" value="quickreply" />
+<table border="0" cellspacing="0" cellpadding="4" class="tborder">
+<thead>
+<tr>
+<td colspan="2" class="thead">
+<div class="expcolimage"><img src="images/cpalead/collapse.gif" id="quickreply_img" class="expander" alt="[-]" /></div>
+<div><strong>Quick Reply</strong></div>
+</td>
+</tr>
+</thead>
+<tbody style="" id="quickreply_e">
+<tr>
+<td class="trow1" valign="top" width="22%">
+<strong>Message</strong><br />
+<span class="smalltext">Type your reply to this message here.<br /><br />
+<label><input type="checkbox" class="checkbox" name="postoptions[signature]" value="yes" />&nbsp;<strong>Signature</strong></label><br />
+<label><input type="checkbox" class="checkbox" name="postoptions[disablesmilies]" value="yes" />&nbsp;<strong>Disable Smilies</strong></label></span>
+</td>
+<td class="trow1">
+<div>
+<span style="float: right; font-weight: bold" class="smilie_css"><a href="javascript:clickableEditor.openGetMoreSmilies('clickableEditor');"><img src="images/smilies/clicksmilies.gif" title="Insert Smilies."></a></span>
+<textarea id="message" name="message" rows="10" cols="85" tabindex="2"></textarea>
+
+<script type="text/javascript" src="jscripts/editor.js?ver=1609"></script>
+<script type="text/javascript">
+<!--
+	var editor_language = {
+	title_bold: "Insert bold text",
+	title_italic: "Insert italic text",
+	title_underline: "Insert underlined text",
+	title_left: "Align text to the left",
+	title_center: "Align text to the center",
+	title_right: "Align text to the right",
+	title_justify: "Justify text",
+	title_numlist: "Insert numbered list",
+	title_bulletlist: "Insert bulleted list",
+	title_image: "Insert image",
+	title_hyperlink: "Insert hyperlink",
+	title_email: "Insert email address",
+	title_quote: "Insert quoted text",
+	title_code: "Insert formatted code",
+	title_php: "Insert formatted PHP code",
+	title_close_tags: "Close any open MyCode tags that you currently have open",
+	enter_list_item: "Enter a list item. Click cancel or leave blank to end the list.",
+	enter_url: "Please enter the URL of the website.",
+	enter_url_title: "Optionally, you can also enter a title for the URL.",
+	enter_email: "Please enter the email address you wish to insert.",
+	enter_email_title: "Optionally, you may also enter a title for the email address.",
+	enter_image: "Please enter the remote URL of the image you wish to insert.",
+	enter_video_url: "Please enter the URL of the video.",
+	video_dailymotion: "Dailymotion",
+	video_metacafe: "MetaCafe",
+	video_myspacetv: "MySpace TV",
+	video_vimeo: "Vimeo",
+	video_yahoo: "Yahoo Video",
+	video_youtube: "YouTube",
+	size_xx_small: "XX Small",
+	size_x_small: "X Small",
+	size_small: "Small",
+	size_medium: "Medium",
+	size_large: "Large",
+	size_x_large: "X Large",
+	size_xx_large: "XX Large",
+	font: "Font",
+	size: "Text Size",
+	color: "Text Color"
+};
+
+	var clickableEditor = new messageEditor("message", {lang: editor_language, rtl: 0, theme: "default"});
+	if(clickableEditor)
+	{
+		clickableEditor.bindSmilieInserter("clickable_smilies");
+	}
+// -->
+</script>
+
+</div>
+<script type="text/javascript">document.write('<div class="editor_control_bar" style="width: 90%; padding: 4px; margin-top: 3px; display: none;" id="quickreply_multiquote"><span class="smalltext">You have selected one or more posts to quote. <a href="javascript:Thread.loadMultiQuoted();">Quote these posts now<\/a> or <a href="javascript:Thread.clearMultiQuoted();">deselect them<\/a>.<\/span><\/div>');</script>
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center" class="tfoot"><input type="submit" accesskey="s" tabindex="3" value="Post Reply" name="submit" class="button"> <input type="submit" class="button" name="previewpost" value="Preview Post" tabindex="3" /></td>
+</tr>
+</tbody>
+</table>
+</form>
+
+<br />
+<div class="float_right" style="text-align: right;">
+</div>
+<br style="clear: both;" />
+
+<script src="https://anonymiz.com/js/anonymize.js" type="text/javascript"></script>
+<script type="text/javascript"><!--
+protected_links = "bestblackhatforum.com,blackhattorrents.com, javascript";
+
+auto_anonymize();
+//--></script>
+<br />
+<script>
+var mostOnline=32401
+var postAdd=21500
+var threadAdd=48500
+var memberAdd=559500
+
+a=document.getElementsByTagName("span")
+for(i=0;i<a.length;i++){
+if(a[i].className=='smalltext' && a[i].innerHTML.match(/Our members have made a total of (.*) posts in (.*) threads/i)){
+posts=parseInt(RegExp.$1.split(",").join(""))+postAdd
+threads=parseInt(RegExp.$2.split(",").join(""))+threadAdd
+a[i].innerHTML=a[i].innerHTML.split("Our members have made a total of "+RegExp.$1+" posts in "+RegExp.$2+" threads").join("Our members have made a total of "+posts+" posts in "+threads+" threads")
+if(a[i].innerHTML.match(/We currently have (.*) members registered/i)){
+members=parseInt(RegExp.$1.split(",").join(""))+memberAdd
+a[i].innerHTML=a[i].innerHTML.split("We currently have "+RegExp.$1+" members registered").join("We currently have "+members+" members registered")
+if(a[i].innerHTML.match(/The most users online at one time was (.*) on/i)){
+online=parseInt(RegExp.$1.split(",").join(""))+mostOnline
+a[i].innerHTML=a[i].innerHTML.split("The most users online at one time was "+RegExp.$1+" on").join("The most users online at one time was "+online+" on")
+}}}}
+</script>
+<div align='center'><a href="http://bestblackhatforum.com/Thread-Earn-10-200-Per-Day-With-Forex-Management-Account
+"><img src='images/my_compas/38.gif' alt='38.gif' title='Advertisement' /></a></div><div class="bottommenu">
+<div class="float_right"></div>
+<div>
+<span class="smalltext"><a href="mailto:cpaleadvip@live.com">Contact Us</a> | <a href="/">BestBlackhatForum</a> | <a href="#top">Return to Top</a> | <a href="#content">Return to Content</a> | <a href="http://bestblackhatforum.com/archive/index.php?thread-268496.html">Lite (Archive) Mode</a> </span>
+</div>
+</div>
+</div>
+<hr class="hidden" />
+<div id="copyright">
+<div id="debug"></div>
+
+Powered By <a href="http://mybb.com/" target="_blank">MyBB</a>, &copy; 2002-2017 <a href="http://mybb.com/" target="_blank">MyBB Group</a>.<br />
+
+<br />
+<br class="clear" />
+
+<script type="text/javascript">if(MyBB) { Event.observe(window, 'load', function() { MyBB.detectDSTChange('10'); }); }</script>
+
+
+<link type="text/css" href="http://bestblackhatforum.com/footerbar/themes/dark/style.css" rel="stylesheet" />
+<script type="text/javascript" src="http://bestblackhatforum.com/footerbar/js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="http://bestblackhatforum.com/footerbar/js/footerbar.min.js"></script>
+<script type="text/javascript">
+var footerbar = jQuery.noConflict();
+    footerbar(document).ready(function() {
+           footerbar("#footerbar").jixedbar();
+}); 
+</script>
+
+<style type="text/css">
+#pm_notification {
+font-family: ?Myriad Pro?, Tahoma, Helvetica, Arial, sans-serif;
+font-size:12px;
+font-weight:bold;
+display: inline-block;
+background-color:#8f0000;
+background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #d20000), color-stop(1, #8f0000));
+background:-moz-linear-gradient( center top, #d20000 5%, #8f0000 100% );
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d20000', endColorstr='#8f0000');
+border-radius: 4px;
+border: 1px solid #202020;
+text-shadow: #d20000 0px 1px 1px;
+padding-top: 0px;
+padding-bottom: 0px;
+padding-left: 6px;
+padding-right: 6px;
+}
+a#pm_notification {
+color: #1e1e1e;
+text-decoration: none;
+}
+a#pm_notification:hover {
+color: #373737;
+text-decoration: none;
+}
+#pm_notificationnew {
+font-family: ?Myriad Pro?, Tahoma, Helvetica, Arial, sans-serif;
+font-size:12px;
+font-weight:bold;
+display: inline-block;
+background-color:#5a882d;
+background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #6fa639), color-stop(1, #5a882d));
+background:-moz-linear-gradient( center top, #6fa639 5%, #5a882d 100% );
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6fa639', endColorstr='#5a882d');
+border-radius: 4px;
+border: 1px solid #202020;
+text-shadow: #9eda62 0px 1px 1px;
+padding-top: 0px;
+padding-bottom: 0px;
+padding-left: 6px;
+padding-right: 6px;
+}
+a#pm_notificationnew {
+color: #1e1e1e;
+text-decoration: none;
+}
+a#pm_notificationnew:hover {
+color: #373737;
+text-decoration: none;
+}
+span.links {
+background:none;
+font-size:10px; 
+font-weight:bold;
+}
+span a.links {
+color:#6c6c6c;
+}
+</style>
+<br /><br />
+<div id="footerbar">
+<ul>
+<li title="Home"><a href="http://bestblackhatforum.com"><img src="http://bestblackhatforum.com/footerbar/themes/dark/icons/home.png" alt="" /></a></li>
+</ul>
+<span class="jx-separator-left"></span>
+
+<ul>
+<li title="Forum Links"><a href="#"><img src="http://bestblackhatforum.com/footerbar/themes/dark/icons/forum.png" alt="" /></a>
+<ul>
+<li align="left"><a href="http://bestblackhatforum.com/search.php"><img src="http://bestblackhatforum.com/footerbar/themes/dark/icons/search.png" title="Search" />&nbsp;&nbsp;Search</a></li>
+<li align="left"><a href="http://bestblackhatforum.com/memberlist.php"><img src="http://bestblackhatforum.com/footerbar/themes/dark/icons/members.png" title="Members" />&nbsp;&nbsp;Member List</a></li>
+<li align="left"><a href="http://bestblackhatforum.com/calendar.php"><img src="http://bestblackhatforum.com/footerbar/themes/dark/icons/calendar.png" title="Calendar" />&nbsp;&nbsp;Calendar</a></li>
+<li align="left"><a href="http://bestblackhatforum.com/misc.php?action=help"><img src="http://bestblackhatforum.com/footerbar/themes/dark/icons/help.png" title="Help" />&nbsp;&nbsp;Help</a></li>
+</ul>
+</li>
+</ul>
+
+<ul>
+<li title="Social Links"><a href="#"><img src="http://bestblackhatforum.com/footerbar/themes/dark/icons/social.png" alt="" /></a>
+<ul>
+<li align="left"><a href="https://www.facebook.com/bestblackhatforum" target="_blank"><img src="http://bestblackhatforum.com/footerbar/themes/dark/icons/facebook.png" title="Facebook" />&nbsp;&nbsp;Facebook</a></li>
+<li align="left"><a href="https://twitter.com/BBHF_server" target="_blank"><img src="http://bestblackhatforum.com/footerbar/themes/dark/icons/twitter.png" title="Twitter" />&nbsp;&nbsp;Twitter</a></li>
+<li align="left"><a href="https://www.youtube.com/channel/UCTAjeKnNt5F6PoeZZeNWUzg" target="_blank"><img src="http://bestblackhatforum.com/footerbar/themes/dark/icons/youtube.png" title="Youtube" />&nbsp;&nbsp;Youtube</a></li>
+<li align="left"><a href="https://plus.google.com/u/1/110236494500792760112" target="_blank"><img src="http://bestblackhatforum.com/footerbar/themes/dark/icons/googlep.png" title="Google +" />&nbsp;&nbsp;Google +</a></li>
+</ul>
+</li>
+</ul>
+<span class=\"jx-separator-left\"></span>
+
+<ul>
+</ul>
+<span class="jx-separator-left"></span>
+
+<div class="text-container"><em><strong>Latest: </strong>[GET - FREE] SMAR7 SEVEN FIGUR ...... -
+<span class="links"><a href="http://bestblackhatforum.com/showthread.php?tid=317560">View Thread</a> | <a href='http://bestblackhatforum.com/showthread.php?tid=317560&action=lastpost'>View Last Post</a></span></em></div>
+
+<ul class="jx-bar-button-right">
+<li title="dashkoalexander1's UserCP"><a href="#"><img src="http://bestblackhatforum.com/footerbar/themes/dark/icons/usercp.png" alt="" /></a>
+ <ul>
+<li class="action" title="Logout"><a href="http://bestblackhatforum.com/member.php?action=logout&amp;logoutkey=fa360fa9014576bb4f5f241ec0fd0be3"><img src="http://bestblackhatforum.com/footerbar/themes/dark/icons/logout.png" alt="" />&nbsp;&nbsp;Logout</a></li>
+<li align="center" title="Search"><form method="post" action="/search.php">
+<input class="search" type="text" style="width:100px;" placeholder="Search Forum" title="Enter your search keywords" name="keywords">
+<input type="hidden" value="do_search" name="action">
+<input type="hidden" value="1" name="postthread">
+</form>
+</li>
+<li title="Open Buddy List"><a href="#" onclick="MyBB.popupWindow('http://bestblackhatforum.com/misc.php?action=buddypopup', 'buddyList', 350, 350);"><img src="http://bestblackhatforum.com/footerbar/themes/dark/icons/buddy.png" alt="" />&nbsp;&nbsp;Buddy List</a></li>
+<li title="Private Messages"><a href="http://bestblackhatforum.com/private.php"><img src="http://bestblackhatforum.com/footerbar/themes/dark/icons/messages.png" alt="" />&nbsp;&nbsp;Messages (0)</a></li>
+<li title="User Control Panel"><a href="http://bestblackhatforum.com/usercp.php"><img src="http://bestblackhatforum.com/footerbar/themes/dark/icons/usercp2.png" alt="" />&nbsp;&nbsp;UserCP</a></li>
+</ul>
+</li>
+</ul>
+<ul class="jx-bar-button-right">
+<li title="dashkoalexander1's Stats"><a href="#"><img src="http://bestblackhatforum.com/footerbar/themes/dark/icons/stats.png" alt="" /></a>
+<ul>
+<li align="left"><a href="http://bestblackhatforum.com/member.php?action=profile&uid=336979"><img src="" width="16" height="16" />&nbsp;&nbsp;<strong><em>dashkoalexander1</em></strong></a></li>
+<li align="left"><a href="http://bestblackhatforum.com/search.php?action=finduser&uid=336979"><img src="http://bestblackhatforum.com/footerbar/themes/dark/icons/userposts.png" alt="" />&nbsp;&nbsp;Total Posts: 0</a></li>
+<li align="left"><a href="http://bestblackhatforum.com/reputation.php?uid=336979"><img src="http://bestblackhatforum.com/footerbar/themes/dark/icons/rep.png" alt="" />&nbsp;&nbsp;Reputation: 0</a></li>
+<li align="left"><a href="http://bestblackhatforum.com/member.php?action=profile&uid=336979"><img src="http://bestblackhatforum.com/footerbar/themes/dark/icons/refer.png" alt="" />&nbsp;&nbsp;Referrals: 0</a></li>
+</ul>
+</li>
+</ul>
+<ul class="jx-bar-button-right">
+<li title="New Content"><a href="#"><img src="http://bestblackhatforum.com/footerbar/themes/dark/icons/new.png" alt="" /></a>
+<ul>
+<li align="left"><a href="http://bestblackhatforum.com/search.php?action=getnew"><img src="http://bestblackhatforum.com/footerbar/themes/dark/icons/newpt.png" title="New Posts" />&nbsp;&nbsp;New Posts</a></li>
+<li align="left"><a href="http://bestblackhatforum.com/search.php?action=getdaily"><img src="http://bestblackhatforum.com/footerbar/themes/dark/icons/newpt.png" title="Todays Posts" />&nbsp;&nbsp;Todays Posts</a></li>
+<li align="left"><a href="http://bestblackhatforum.com/search.php?action=finduserthreads&uid=336979"><img src="http://bestblackhatforum.com/footerbar/themes/dark/icons/newpt.png" title="Your Threads" />&nbsp;&nbsp;Your Threads</a></li>
+<li align="left"><a href="http://bestblackhatforum.com/search.php?action=finduser&uid=336979"><img src="http://bestblackhatforum.com/footerbar/themes/dark/icons/newpt.png" title="Your Posts" />&nbsp;&nbsp;Your Posts</a></li>
+</ul>
+</li>
+</ul>
+<span class="jx-separator-right"></span>
+</div>
+
+</div></div>
+
+</body>
+</html>
+
+HTML;
+
+
+
+
+$ch = curl_init();
+curl_setopt($ch, CURLOPT_URL, "http://api.urlchecker.org/v3/");
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+curl_setopt($ch, CURLOPT_POST, true);
+
+$data = array(
+    "key" => "YOUR_API_KEY",
+    "response_format" => "json",
+    "extract" => 1,
+    "html" => $html
+);
+
+curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+$output = curl_exec($ch);
+$info = curl_getinfo($ch);
+curl_close($ch);
+
+echo $output;
